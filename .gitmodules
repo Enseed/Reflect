@@ -1,0 +1,6 @@
+[submodule "Parser"]
+	path = Parser
+	url = https://github.com/Enseed/ReflectParser.git
+[submodule "API"]
+	path = API
+	url = https://github.com/Enseed/ReflectAPI.git
