@@ -4,3 +4,6 @@
 [submodule "API"]
 	path = API
 	url = https://github.com/Enseed/ReflectAPI.git
+[submodule "Sample"]
+	path = Sample
+	url = https://github.com/Enseed/ReflectSample.git
