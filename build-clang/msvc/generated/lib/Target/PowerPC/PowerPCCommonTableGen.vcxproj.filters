@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenAsmWriter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenAsmWriter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenAsmMatcher.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenAsmMatcher.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenDisassemblerTables.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenDisassemblerTables.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenMCCodeEmitter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenMCCodeEmitter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenRegisterInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenRegisterInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenInstrInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenInstrInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenDAGISel.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenDAGISel.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenFastISel.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenFastISel.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenCallingConv.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenCallingConv.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenSubtargetInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\acb3027a4eb9158d26f87c71f8c5ef83\PPCGenSubtargetInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\7d48bbf0444ec1fb419d68ab8745344a\PowerPCCommonTableGen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\PowerPC\CMakeFiles\PowerPCCommonTableGen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{33E7D722-A369-4DA0-BC24-6BAB1862A76A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

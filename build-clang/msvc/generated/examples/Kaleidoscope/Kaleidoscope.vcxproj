@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C283D0AB-F9DC-4E75-BF19-EF7CE84A2EC2}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Kaleidoscope</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/examples/Kaleidoscope/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\examples\Kaleidoscope\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\examples\Kaleidoscope\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Chapter2/Kaleidoscope-Ch2.vcxproj">
+      <Project>C9F60C00-39B2-4310-87C1-B2F17CFC4ECD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Chapter3/Kaleidoscope-Ch3.vcxproj">
+      <Project>A29EFABC-757B-498F-958C-D15D712999CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Chapter4/Kaleidoscope-Ch4.vcxproj">
+      <Project>C6B859B0-2F40-4BBF-A765-786C83AC82ED</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Chapter5/Kaleidoscope-Ch5.vcxproj">
+      <Project>136F7E50-78FF-48A3-AA14-C9BE03C892A8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Chapter6/Kaleidoscope-Ch6.vcxproj">
+      <Project>1111E899-59E5-4731-A7C3-0B6058B52B19</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Chapter7/Kaleidoscope-Ch7.vcxproj">
+      <Project>0B002132-1DBC-4FCC-B480-66E0B14D570F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Chapter8/Kaleidoscope-Ch8.vcxproj">
+      <Project>85B38A78-238F-49C2-9BEF-6C524F1BE239</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Orc/fully_lazy/Kaleidoscope-Orc-fully_lazy.vcxproj">
+      <Project>A62B64A1-E043-4F1B-B314-239063F599DC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Orc/initial/Kaleidoscope-Orc-initial.vcxproj">
+      <Project>BD12848A-A6A8-45AD-A9D5-1ADA3B86E957</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Orc/lazy_codegen/Kaleidoscope-Orc-lazy_codegen.vcxproj">
+      <Project>B391BD4B-D6D0-44F8-8412-96415A78C81A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/examples/Kaleidoscope/Orc/lazy_irgen/Kaleidoscope-Orc-lazy_irgen.vcxproj">
+      <Project>3B0F4BC9-95AB-4515-B2BB-9C0BFB37927D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/ZERO_CHECK.vcxproj">
+      <Project>A8649693-7109-4DDD-B65D-31D6BF355819</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\ARCMT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\ARCMTActions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\FileRemapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\ObjCMT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\PlistReporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransAPIUses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransARCAssign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransAutoreleasePool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransBlockObjCVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransEmptyStatementsAndDealloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransGCAttrs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransGCCalls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransProtectedScope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransRetainReleaseDealloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransUnbridgedCasts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransUnusedInitDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransZeroOutPropsInDealloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\TransformActions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\Transforms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include\clang\ARCMigrate\ARCMT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include\clang\ARCMigrate\ARCMTActions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include\clang\ARCMigrate\FileRemapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\Internals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\Transforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\lib\ARCMigrate\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B0F14A1-DD66-42FE-AE59-A5DB9A489131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DEE77D8A-0FB6-4289-A169-14ADF9261FD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64A57FPLoadBalancing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64AddressTypePromotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64AdvSIMDScalarPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64AsmPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64BranchRelaxation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64CleanupLocalDynamicTLSPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64CollectLOH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64ConditionalCompares.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64DeadRegisterDefinitionsPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64ExpandPseudoInsts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64FastISel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64A53Fix835769.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64FrameLowering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64ConditionOptimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64ISelDAGToDAG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64ISelLowering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64InstrInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64LoadStoreOptimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64MCInstLower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64PromoteConstant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64PBQPRegAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64RegisterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64SelectionDAGInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64StorePairSuppress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64Subtarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64TargetMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64TargetObjectFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64TargetTransformInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64CallingConvention.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64InstrAtomics.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64InstrFormats.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64InstrInfo.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64RegisterInfo.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64SchedA53.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64SchedA57.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64SchedA57WriteRes.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64SchedCyclone.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64Schedule.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64CallingConvention.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64FrameLowering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64InstrInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64ISelLowering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64MachineCombinerPattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64MachineFunctionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64MCInstLower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64PBQPRegAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64PerfectShuffle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64RegisterInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64SelectionDAGInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64Subtarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64TargetMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64TargetObjectFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\AArch64TargetTransformInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AArch64\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B0F14A1-DD66-42FE-AE59-A5DB9A489131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DEE77D8A-0FB6-4289-A169-14ADF9261FD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TableGen descriptions">
+      <UniqueIdentifier>{068B4838-C1E2-42F9-A07B-7C9DE76DC62A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

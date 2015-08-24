@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\ExecutionEngine\Orc\ExecutionUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\ExecutionEngine\Orc\IndirectionUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\ExecutionEngine\Orc\NullResolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\ExecutionEngine\Orc\OrcMCJITReplacement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\ExecutionEngine\Orc\OrcTargetSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\ExecutionEngine\Orc\OrcMCJITReplacement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\CompileOnDemandLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\CompileUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\ExecutionUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\IndirectionUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\IRCompileLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\IRTransformLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\JITSymbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\LambdaResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\LazyEmittingLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\LogicalDylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\NullResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\ObjectLinkingLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\ObjectTransformLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\ExecutionEngine\Orc\OrcTargetSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\ExecutionEngine\Orc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B0F14A1-DD66-42FE-AE59-A5DB9A489131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DEE77D8A-0FB6-4289-A169-14ADF9261FD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

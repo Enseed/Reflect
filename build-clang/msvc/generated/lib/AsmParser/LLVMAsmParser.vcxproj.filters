@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\AsmParser\LLLexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\AsmParser\LLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\AsmParser\Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\AsmParser\LLLexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\AsmParser\LLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\AsmParser\LLToken.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\AliasAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\AliasAnalysisCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\AliasSetTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\AssumptionCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\BasicAliasAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\BlockFrequencyInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\BlockFrequencyInfoImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\BranchProbabilityInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\CallGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\CallGraphSCCPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\CallPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\CaptureTracking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\CFG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\CFGPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\CFLAliasAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\CGSCCPassManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\CodeMetrics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ConstantFolding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\DemandedBits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\DependenceAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\DominanceFrontier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\DominanceFrontierImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\DomPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\DOTGraphTraitsPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\GlobalsModRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\InlineCost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\InstructionSimplify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\Interval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\IntervalIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\IntervalPartition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\IteratedDominanceFrontier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\IVUsers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\LazyCallGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\LazyValueInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\LibCallSemantics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\Lint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\Loads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\LoopAccessAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\LoopInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\LoopInfoImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\LoopIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\LoopPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\MemoryBuiltins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\MemoryDependenceAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\MemoryLocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ObjCARCAliasAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ObjCARCAnalysisUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ObjCARCInstKind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\OrderedBasicBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\Passes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\PHITransAddr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\PostDominators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\PtrUseVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\RegionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\RegionInfoImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\RegionIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\RegionPass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\RegionPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ScalarEvolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ScalarEvolutionAliasAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ScalarEvolutionExpander.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ScalarEvolutionExpressions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ScalarEvolutionNormalization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ScopedNoAliasAA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\SparsePropagation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\TargetFolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\TargetLibraryInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\TargetTransformInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\TargetTransformInfoImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\Trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\TypeBasedAliasAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\ValueTracking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\include\llvm\Analysis\VectorUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\AsmParser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B0F14A1-DD66-42FE-AE59-A5DB9A489131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DEE77D8A-0FB6-4289-A169-14ADF9261FD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

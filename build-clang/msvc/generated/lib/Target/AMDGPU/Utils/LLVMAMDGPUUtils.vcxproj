@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5E2F08B3-FB7B-4D2E-86CE-9C776AF058A5}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>LLVMAMDGPUUtils</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\Debug\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LLVMAMDGPUUtils.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LLVMAMDGPUUtils</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LLVMAMDGPUUtils</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\Release\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LLVMAMDGPUUtils.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LLVMAMDGPUUtils</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LLVMAMDGPUUtils</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\MinSizeRel\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">LLVMAMDGPUUtils.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">LLVMAMDGPUUtils</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LLVMAMDGPUUtils</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\RelWithDebInfo\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">LLVMAMDGPUUtils.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">LLVMAMDGPUUtils</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LLVMAMDGPUUtils</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/AMDGPU/Utils/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\AMDGPU\Utils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\AMDGPUBaseInfo.h" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\AMDGPU\Utils\AMDGPUBaseInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AMDGPU/AMDGPUCommonTableGen.vcxproj">
+      <Project>DBFE1DC9-8B80-4ACD-886E-6FFB186E8D69</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/ZERO_CHECK.vcxproj">
+      <Project>A8649693-7109-4DDD-B65D-31D6BF355819</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/include/llvm/IR/intrinsics_gen.vcxproj">
+      <Project>20FE9F05-331C-4AF2-AEAA-116F93E136DA</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

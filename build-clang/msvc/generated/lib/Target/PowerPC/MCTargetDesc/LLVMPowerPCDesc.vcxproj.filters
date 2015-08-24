@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCAsmBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCMCTargetDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCMCAsmInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCMCCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCMCExpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCPredicates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCMachObjectWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCELFObjectWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCFixupKinds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCMCAsmInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCMCExpr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCMCTargetDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\PPCPredicates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\PowerPC\MCTargetDesc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B0F14A1-DD66-42FE-AE59-A5DB9A489131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DEE77D8A-0FB6-4289-A169-14ADF9261FD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

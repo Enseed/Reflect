@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Hexagon\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenAsmWriter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenAsmWriter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenCallingConv.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenCallingConv.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenDAGISel.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenDAGISel.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenDFAPacketizer.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenDFAPacketizer.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenDisassemblerTables.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenDisassemblerTables.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenInstrInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenInstrInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenMCCodeEmitter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenMCCodeEmitter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenRegisterInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenRegisterInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenSubtargetInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\70685b6ae49f8fe0a0b4b94400a192b7\HexagonGenSubtargetInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\35c7c7650b310bbe371fc7be6abb74f0\HexagonCommonTableGen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Hexagon\CMakeFiles\HexagonCommonTableGen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{33E7D722-A369-4DA0-BC24-6BAB1862A76A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{0A920871-5F87-42EB-AF2F-4C363D0B7F6B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>clang</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\Debug\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">clang.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">clang</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">clang</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\Release\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">clang.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">clang</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">clang</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\MinSizeRel\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">clang.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">clang</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">clang</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\RelWithDebInfo\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">clang.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">clang</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">clang</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang-cl.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\Debug\lib\LLVMAArch64CodeGen.lib;..\..\..\..\Debug\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMAArch64AsmParser.lib;..\..\..\..\Debug\lib\LLVMAArch64Desc.lib;..\..\..\..\Debug\lib\LLVMAArch64Info.lib;..\..\..\..\Debug\lib\LLVMAArch64Disassembler.lib;..\..\..\..\Debug\lib\LLVMAMDGPUCodeGen.lib;..\..\..\..\Debug\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMAMDGPUAsmParser.lib;..\..\..\..\Debug\lib\LLVMAMDGPUDesc.lib;..\..\..\..\Debug\lib\LLVMAMDGPUInfo.lib;..\..\..\..\Debug\lib\LLVMARMCodeGen.lib;..\..\..\..\Debug\lib\LLVMARMAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMARMAsmParser.lib;..\..\..\..\Debug\lib\LLVMARMDesc.lib;..\..\..\..\Debug\lib\LLVMARMInfo.lib;..\..\..\..\Debug\lib\LLVMARMDisassembler.lib;..\..\..\..\Debug\lib\LLVMBPFCodeGen.lib;..\..\..\..\Debug\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMBPFDesc.lib;..\..\..\..\Debug\lib\LLVMBPFInfo.lib;..\..\..\..\Debug\lib\LLVMCppBackendCodeGen.lib;..\..\..\..\Debug\lib\LLVMCppBackendInfo.lib;..\..\..\..\Debug\lib\LLVMHexagonCodeGen.lib;..\..\..\..\Debug\lib\LLVMHexagonDesc.lib;..\..\..\..\Debug\lib\LLVMHexagonInfo.lib;..\..\..\..\Debug\lib\LLVMHexagonDisassembler.lib;..\..\..\..\Debug\lib\LLVMMipsCodeGen.lib;..\..\..\..\Debug\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMMipsAsmParser.lib;..\..\..\..\Debug\lib\LLVMMipsDesc.lib;..\..\..\..\Debug\lib\LLVMMipsInfo.lib;..\..\..\..\Debug\lib\LLVMMipsDisassembler.lib;..\..\..\..\Debug\lib\LLVMMSP430CodeGen.lib;..\..\..\..\Debug\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMMSP430Desc.lib;..\..\..\..\Debug\lib\LLVMMSP430Info.lib;..\..\..\..\Debug\lib\LLVMNVPTXCodeGen.lib;..\..\..\..\Debug\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMNVPTXDesc.lib;..\..\..\..\Debug\lib\LLVMNVPTXInfo.lib;..\..\..\..\Debug\lib\LLVMPowerPCCodeGen.lib;..\..\..\..\Debug\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMPowerPCAsmParser.lib;..\..\..\..\Debug\lib\LLVMPowerPCDesc.lib;..\..\..\..\Debug\lib\LLVMPowerPCInfo.lib;..\..\..\..\Debug\lib\LLVMPowerPCDisassembler.lib;..\..\..\..\Debug\lib\LLVMSparcCodeGen.lib;..\..\..\..\Debug\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMSparcAsmParser.lib;..\..\..\..\Debug\lib\LLVMSparcDesc.lib;..\..\..\..\Debug\lib\LLVMSparcInfo.lib;..\..\..\..\Debug\lib\LLVMSparcDisassembler.lib;..\..\..\..\Debug\lib\LLVMSystemZCodeGen.lib;..\..\..\..\Debug\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMSystemZAsmParser.lib;..\..\..\..\Debug\lib\LLVMSystemZDesc.lib;..\..\..\..\Debug\lib\LLVMSystemZInfo.lib;..\..\..\..\Debug\lib\LLVMSystemZDisassembler.lib;..\..\..\..\Debug\lib\LLVMX86CodeGen.lib;..\..\..\..\Debug\lib\LLVMX86AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMX86AsmParser.lib;..\..\..\..\Debug\lib\LLVMX86Desc.lib;..\..\..\..\Debug\lib\LLVMX86Info.lib;..\..\..\..\Debug\lib\LLVMX86Disassembler.lib;..\..\..\..\Debug\lib\LLVMXCoreCodeGen.lib;..\..\..\..\Debug\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMXCoreDesc.lib;..\..\..\..\Debug\lib\LLVMXCoreInfo.lib;..\..\..\..\Debug\lib\LLVMXCoreDisassembler.lib;..\..\..\..\Debug\lib\LLVMAnalysis.lib;..\..\..\..\Debug\lib\LLVMCodeGen.lib;..\..\..\..\Debug\lib\LLVMCore.lib;..\..\..\..\Debug\lib\LLVMipo.lib;..\..\..\..\Debug\lib\LLVMInstCombine.lib;..\..\..\..\Debug\lib\LLVMInstrumentation.lib;..\..\..\..\Debug\lib\LLVMMC.lib;..\..\..\..\Debug\lib\LLVMMCParser.lib;..\..\..\..\Debug\lib\LLVMObjCARCOpts.lib;..\..\..\..\Debug\lib\LLVMOption.lib;..\..\..\..\Debug\lib\LLVMScalarOpts.lib;..\..\..\..\Debug\lib\LLVMSupport.lib;..\..\..\..\Debug\lib\LLVMTransformUtils.lib;..\..\..\..\Debug\lib\LLVMVectorize.lib;..\..\..\..\Debug\lib\clangBasic.lib;..\..\..\..\Debug\lib\clangCodeGen.lib;..\..\..\..\Debug\lib\clangDriver.lib;..\..\..\..\Debug\lib\clangFrontend.lib;..\..\..\..\Debug\lib\clangFrontendTool.lib;..\..\..\..\Debug\lib\LLVMAArch64Desc.lib;..\..\..\..\Debug\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMAArch64Info.lib;..\..\..\..\Debug\lib\LLVMAArch64Utils.lib;..\..\..\..\Debug\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMAMDGPUUtils.lib;..\..\..\..\Debug\lib\LLVMARMDesc.lib;..\..\..\..\Debug\lib\LLVMARMAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMARMInfo.lib;..\..\..\..\Debug\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMHexagonDesc.lib;..\..\..\..\Debug\lib\LLVMHexagonInfo.lib;..\..\..\..\Debug\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMMipsInfo.lib;..\..\..\..\Debug\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMPowerPCInfo.lib;..\..\..\..\Debug\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMSparcInfo.lib;..\..\..\..\Debug\lib\LLVMSystemZDesc.lib;..\..\..\..\Debug\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMSystemZInfo.lib;..\..\..\..\Debug\lib\LLVMX86CodeGen.lib;..\..\..\..\Debug\lib\LLVMX86Desc.lib;..\..\..\..\Debug\lib\LLVMX86AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMX86Utils.lib;..\..\..\..\Debug\lib\LLVMX86Info.lib;..\..\..\..\Debug\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMSelectionDAG.lib;..\..\..\..\Debug\lib\LLVMCodeGen.lib;..\..\..\..\Debug\lib\LLVMXCoreInfo.lib;..\..\..\..\Debug\lib\LLVMMCDisassembler.lib;..\..\..\..\Debug\lib\clangCodeGen.lib;..\..\..\..\Debug\lib\LLVMipo.lib;..\..\..\..\Debug\lib\LLVMVectorize.lib;..\..\..\..\Debug\lib\LLVMInstrumentation.lib;..\..\..\..\Debug\lib\LLVMObjCARCOpts.lib;..\..\..\..\Debug\lib\LLVMScalarOpts.lib;..\..\..\..\Debug\lib\LLVMInstCombine.lib;..\..\..\..\Debug\lib\LLVMTarget.lib;..\..\..\..\Debug\lib\LLVMProfileData.lib;..\..\..\..\Debug\lib\LLVMObject.lib;..\..\..\..\Debug\lib\LLVMBitWriter.lib;..\..\..\..\Debug\lib\LLVMIRReader.lib;..\..\..\..\Debug\lib\LLVMAsmParser.lib;..\..\..\..\Debug\lib\LLVMLinker.lib;..\..\..\..\Debug\lib\LLVMTransformUtils.lib;..\..\..\..\Debug\lib\LLVMAnalysis.lib;..\..\..\..\Debug\lib\clangRewriteFrontend.lib;..\..\..\..\Debug\lib\clangARCMigrate.lib;..\..\..\..\Debug\lib\clangStaticAnalyzerFrontend.lib;..\..\..\..\Debug\lib\clangFrontend.lib;..\..\..\..\Debug\lib\clangDriver.lib;..\..\..\..\Debug\lib\LLVMOption.lib;..\..\..\..\Debug\lib\clangParse.lib;..\..\..\..\Debug\lib\LLVMMCParser.lib;..\..\..\..\Debug\lib\clangSerialization.lib;..\..\..\..\Debug\lib\LLVMBitReader.lib;..\..\..\..\Debug\lib\clangSema.lib;..\..\..\..\Debug\lib\clangEdit.lib;..\..\..\..\Debug\lib\clangStaticAnalyzerCheckers.lib;..\..\..\..\Debug\lib\clangStaticAnalyzerCore.lib;..\..\..\..\Debug\lib\clangAnalysis.lib;..\..\..\..\Debug\lib\clangAST.lib;..\..\..\..\Debug\lib\clangRewrite.lib;..\..\..\..\Debug\lib\clangLex.lib;..\..\..\..\Debug\lib\clangBasic.lib;..\..\..\..\Debug\lib\LLVMCore.lib;..\..\..\..\Debug\lib\LLVMMC.lib;..\..\..\..\Debug\lib\LLVMSupport.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/Debug/lib/clang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/Debug/bin/clang.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang-cl.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\Debug\lib\LLVMAArch64CodeGen.lib;..\..\..\..\Debug\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMAArch64AsmParser.lib;..\..\..\..\Debug\lib\LLVMAArch64Desc.lib;..\..\..\..\Debug\lib\LLVMAArch64Info.lib;..\..\..\..\Debug\lib\LLVMAArch64Disassembler.lib;..\..\..\..\Debug\lib\LLVMAMDGPUCodeGen.lib;..\..\..\..\Debug\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMAMDGPUAsmParser.lib;..\..\..\..\Debug\lib\LLVMAMDGPUDesc.lib;..\..\..\..\Debug\lib\LLVMAMDGPUInfo.lib;..\..\..\..\Debug\lib\LLVMARMCodeGen.lib;..\..\..\..\Debug\lib\LLVMARMAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMARMAsmParser.lib;..\..\..\..\Debug\lib\LLVMARMDesc.lib;..\..\..\..\Debug\lib\LLVMARMInfo.lib;..\..\..\..\Debug\lib\LLVMARMDisassembler.lib;..\..\..\..\Debug\lib\LLVMBPFCodeGen.lib;..\..\..\..\Debug\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMBPFDesc.lib;..\..\..\..\Debug\lib\LLVMBPFInfo.lib;..\..\..\..\Debug\lib\LLVMCppBackendCodeGen.lib;..\..\..\..\Debug\lib\LLVMCppBackendInfo.lib;..\..\..\..\Debug\lib\LLVMHexagonCodeGen.lib;..\..\..\..\Debug\lib\LLVMHexagonDesc.lib;..\..\..\..\Debug\lib\LLVMHexagonInfo.lib;..\..\..\..\Debug\lib\LLVMHexagonDisassembler.lib;..\..\..\..\Debug\lib\LLVMMipsCodeGen.lib;..\..\..\..\Debug\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMMipsAsmParser.lib;..\..\..\..\Debug\lib\LLVMMipsDesc.lib;..\..\..\..\Debug\lib\LLVMMipsInfo.lib;..\..\..\..\Debug\lib\LLVMMipsDisassembler.lib;..\..\..\..\Debug\lib\LLVMMSP430CodeGen.lib;..\..\..\..\Debug\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMMSP430Desc.lib;..\..\..\..\Debug\lib\LLVMMSP430Info.lib;..\..\..\..\Debug\lib\LLVMNVPTXCodeGen.lib;..\..\..\..\Debug\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMNVPTXDesc.lib;..\..\..\..\Debug\lib\LLVMNVPTXInfo.lib;..\..\..\..\Debug\lib\LLVMPowerPCCodeGen.lib;..\..\..\..\Debug\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMPowerPCAsmParser.lib;..\..\..\..\Debug\lib\LLVMPowerPCDesc.lib;..\..\..\..\Debug\lib\LLVMPowerPCInfo.lib;..\..\..\..\Debug\lib\LLVMPowerPCDisassembler.lib;..\..\..\..\Debug\lib\LLVMSparcCodeGen.lib;..\..\..\..\Debug\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMSparcAsmParser.lib;..\..\..\..\Debug\lib\LLVMSparcDesc.lib;..\..\..\..\Debug\lib\LLVMSparcInfo.lib;..\..\..\..\Debug\lib\LLVMSparcDisassembler.lib;..\..\..\..\Debug\lib\LLVMSystemZCodeGen.lib;..\..\..\..\Debug\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMSystemZAsmParser.lib;..\..\..\..\Debug\lib\LLVMSystemZDesc.lib;..\..\..\..\Debug\lib\LLVMSystemZInfo.lib;..\..\..\..\Debug\lib\LLVMSystemZDisassembler.lib;..\..\..\..\Debug\lib\LLVMX86CodeGen.lib;..\..\..\..\Debug\lib\LLVMX86AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMX86AsmParser.lib;..\..\..\..\Debug\lib\LLVMX86Desc.lib;..\..\..\..\Debug\lib\LLVMX86Info.lib;..\..\..\..\Debug\lib\LLVMX86Disassembler.lib;..\..\..\..\Debug\lib\LLVMXCoreCodeGen.lib;..\..\..\..\Debug\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMXCoreDesc.lib;..\..\..\..\Debug\lib\LLVMXCoreInfo.lib;..\..\..\..\Debug\lib\LLVMXCoreDisassembler.lib;..\..\..\..\Debug\lib\LLVMAnalysis.lib;..\..\..\..\Debug\lib\LLVMCodeGen.lib;..\..\..\..\Debug\lib\LLVMCore.lib;..\..\..\..\Debug\lib\LLVMipo.lib;..\..\..\..\Debug\lib\LLVMInstCombine.lib;..\..\..\..\Debug\lib\LLVMInstrumentation.lib;..\..\..\..\Debug\lib\LLVMMC.lib;..\..\..\..\Debug\lib\LLVMMCParser.lib;..\..\..\..\Debug\lib\LLVMObjCARCOpts.lib;..\..\..\..\Debug\lib\LLVMOption.lib;..\..\..\..\Debug\lib\LLVMScalarOpts.lib;..\..\..\..\Debug\lib\LLVMSupport.lib;..\..\..\..\Debug\lib\LLVMTransformUtils.lib;..\..\..\..\Debug\lib\LLVMVectorize.lib;..\..\..\..\Debug\lib\clangBasic.lib;..\..\..\..\Debug\lib\clangCodeGen.lib;..\..\..\..\Debug\lib\clangDriver.lib;..\..\..\..\Debug\lib\clangFrontend.lib;..\..\..\..\Debug\lib\clangFrontendTool.lib;..\..\..\..\Debug\lib\LLVMAArch64Desc.lib;..\..\..\..\Debug\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMAArch64Info.lib;..\..\..\..\Debug\lib\LLVMAArch64Utils.lib;..\..\..\..\Debug\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMAMDGPUUtils.lib;..\..\..\..\Debug\lib\LLVMARMDesc.lib;..\..\..\..\Debug\lib\LLVMARMAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMARMInfo.lib;..\..\..\..\Debug\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMHexagonDesc.lib;..\..\..\..\Debug\lib\LLVMHexagonInfo.lib;..\..\..\..\Debug\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMMipsInfo.lib;..\..\..\..\Debug\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMPowerPCInfo.lib;..\..\..\..\Debug\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMSparcInfo.lib;..\..\..\..\Debug\lib\LLVMSystemZDesc.lib;..\..\..\..\Debug\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMSystemZInfo.lib;..\..\..\..\Debug\lib\LLVMX86CodeGen.lib;..\..\..\..\Debug\lib\LLVMX86Desc.lib;..\..\..\..\Debug\lib\LLVMX86AsmPrinter.lib;..\..\..\..\Debug\lib\LLVMX86Utils.lib;..\..\..\..\Debug\lib\LLVMX86Info.lib;..\..\..\..\Debug\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMAsmPrinter.lib;..\..\..\..\Debug\lib\LLVMSelectionDAG.lib;..\..\..\..\Debug\lib\LLVMCodeGen.lib;..\..\..\..\Debug\lib\LLVMXCoreInfo.lib;..\..\..\..\Debug\lib\LLVMMCDisassembler.lib;..\..\..\..\Debug\lib\clangCodeGen.lib;..\..\..\..\Debug\lib\LLVMipo.lib;..\..\..\..\Debug\lib\LLVMVectorize.lib;..\..\..\..\Debug\lib\LLVMInstrumentation.lib;..\..\..\..\Debug\lib\LLVMObjCARCOpts.lib;..\..\..\..\Debug\lib\LLVMScalarOpts.lib;..\..\..\..\Debug\lib\LLVMInstCombine.lib;..\..\..\..\Debug\lib\LLVMTarget.lib;..\..\..\..\Debug\lib\LLVMProfileData.lib;..\..\..\..\Debug\lib\LLVMObject.lib;..\..\..\..\Debug\lib\LLVMBitWriter.lib;..\..\..\..\Debug\lib\LLVMIRReader.lib;..\..\..\..\Debug\lib\LLVMAsmParser.lib;..\..\..\..\Debug\lib\LLVMLinker.lib;..\..\..\..\Debug\lib\LLVMTransformUtils.lib;..\..\..\..\Debug\lib\LLVMAnalysis.lib;..\..\..\..\Debug\lib\clangRewriteFrontend.lib;..\..\..\..\Debug\lib\clangARCMigrate.lib;..\..\..\..\Debug\lib\clangStaticAnalyzerFrontend.lib;..\..\..\..\Debug\lib\clangFrontend.lib;..\..\..\..\Debug\lib\clangDriver.lib;..\..\..\..\Debug\lib\LLVMOption.lib;..\..\..\..\Debug\lib\clangParse.lib;..\..\..\..\Debug\lib\LLVMMCParser.lib;..\..\..\..\Debug\lib\clangSerialization.lib;..\..\..\..\Debug\lib\LLVMBitReader.lib;..\..\..\..\Debug\lib\clangSema.lib;..\..\..\..\Debug\lib\clangEdit.lib;..\..\..\..\Debug\lib\clangStaticAnalyzerCheckers.lib;..\..\..\..\Debug\lib\clangStaticAnalyzerCore.lib;..\..\..\..\Debug\lib\clangAnalysis.lib;..\..\..\..\Debug\lib\clangAST.lib;..\..\..\..\Debug\lib\clangRewrite.lib;..\..\..\..\Debug\lib\clangLex.lib;..\..\..\..\Debug\lib\clangBasic.lib;..\..\..\..\Debug\lib\LLVMCore.lib;..\..\..\..\Debug\lib\LLVMMC.lib;..\..\..\..\Debug\lib\LLVMSupport.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/Debug/lib/clang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/Debug/bin/clang.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang-cl.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\Release\lib\LLVMAArch64CodeGen.lib;..\..\..\..\Release\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\Release\lib\LLVMAArch64AsmParser.lib;..\..\..\..\Release\lib\LLVMAArch64Desc.lib;..\..\..\..\Release\lib\LLVMAArch64Info.lib;..\..\..\..\Release\lib\LLVMAArch64Disassembler.lib;..\..\..\..\Release\lib\LLVMAMDGPUCodeGen.lib;..\..\..\..\Release\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\Release\lib\LLVMAMDGPUAsmParser.lib;..\..\..\..\Release\lib\LLVMAMDGPUDesc.lib;..\..\..\..\Release\lib\LLVMAMDGPUInfo.lib;..\..\..\..\Release\lib\LLVMARMCodeGen.lib;..\..\..\..\Release\lib\LLVMARMAsmPrinter.lib;..\..\..\..\Release\lib\LLVMARMAsmParser.lib;..\..\..\..\Release\lib\LLVMARMDesc.lib;..\..\..\..\Release\lib\LLVMARMInfo.lib;..\..\..\..\Release\lib\LLVMARMDisassembler.lib;..\..\..\..\Release\lib\LLVMBPFCodeGen.lib;..\..\..\..\Release\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\Release\lib\LLVMBPFDesc.lib;..\..\..\..\Release\lib\LLVMBPFInfo.lib;..\..\..\..\Release\lib\LLVMCppBackendCodeGen.lib;..\..\..\..\Release\lib\LLVMCppBackendInfo.lib;..\..\..\..\Release\lib\LLVMHexagonCodeGen.lib;..\..\..\..\Release\lib\LLVMHexagonDesc.lib;..\..\..\..\Release\lib\LLVMHexagonInfo.lib;..\..\..\..\Release\lib\LLVMHexagonDisassembler.lib;..\..\..\..\Release\lib\LLVMMipsCodeGen.lib;..\..\..\..\Release\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\Release\lib\LLVMMipsAsmParser.lib;..\..\..\..\Release\lib\LLVMMipsDesc.lib;..\..\..\..\Release\lib\LLVMMipsInfo.lib;..\..\..\..\Release\lib\LLVMMipsDisassembler.lib;..\..\..\..\Release\lib\LLVMMSP430CodeGen.lib;..\..\..\..\Release\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\Release\lib\LLVMMSP430Desc.lib;..\..\..\..\Release\lib\LLVMMSP430Info.lib;..\..\..\..\Release\lib\LLVMNVPTXCodeGen.lib;..\..\..\..\Release\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\Release\lib\LLVMNVPTXDesc.lib;..\..\..\..\Release\lib\LLVMNVPTXInfo.lib;..\..\..\..\Release\lib\LLVMPowerPCCodeGen.lib;..\..\..\..\Release\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\Release\lib\LLVMPowerPCAsmParser.lib;..\..\..\..\Release\lib\LLVMPowerPCDesc.lib;..\..\..\..\Release\lib\LLVMPowerPCInfo.lib;..\..\..\..\Release\lib\LLVMPowerPCDisassembler.lib;..\..\..\..\Release\lib\LLVMSparcCodeGen.lib;..\..\..\..\Release\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\Release\lib\LLVMSparcAsmParser.lib;..\..\..\..\Release\lib\LLVMSparcDesc.lib;..\..\..\..\Release\lib\LLVMSparcInfo.lib;..\..\..\..\Release\lib\LLVMSparcDisassembler.lib;..\..\..\..\Release\lib\LLVMSystemZCodeGen.lib;..\..\..\..\Release\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\Release\lib\LLVMSystemZAsmParser.lib;..\..\..\..\Release\lib\LLVMSystemZDesc.lib;..\..\..\..\Release\lib\LLVMSystemZInfo.lib;..\..\..\..\Release\lib\LLVMSystemZDisassembler.lib;..\..\..\..\Release\lib\LLVMX86CodeGen.lib;..\..\..\..\Release\lib\LLVMX86AsmPrinter.lib;..\..\..\..\Release\lib\LLVMX86AsmParser.lib;..\..\..\..\Release\lib\LLVMX86Desc.lib;..\..\..\..\Release\lib\LLVMX86Info.lib;..\..\..\..\Release\lib\LLVMX86Disassembler.lib;..\..\..\..\Release\lib\LLVMXCoreCodeGen.lib;..\..\..\..\Release\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\Release\lib\LLVMXCoreDesc.lib;..\..\..\..\Release\lib\LLVMXCoreInfo.lib;..\..\..\..\Release\lib\LLVMXCoreDisassembler.lib;..\..\..\..\Release\lib\LLVMAnalysis.lib;..\..\..\..\Release\lib\LLVMCodeGen.lib;..\..\..\..\Release\lib\LLVMCore.lib;..\..\..\..\Release\lib\LLVMipo.lib;..\..\..\..\Release\lib\LLVMInstCombine.lib;..\..\..\..\Release\lib\LLVMInstrumentation.lib;..\..\..\..\Release\lib\LLVMMC.lib;..\..\..\..\Release\lib\LLVMMCParser.lib;..\..\..\..\Release\lib\LLVMObjCARCOpts.lib;..\..\..\..\Release\lib\LLVMOption.lib;..\..\..\..\Release\lib\LLVMScalarOpts.lib;..\..\..\..\Release\lib\LLVMSupport.lib;..\..\..\..\Release\lib\LLVMTransformUtils.lib;..\..\..\..\Release\lib\LLVMVectorize.lib;..\..\..\..\Release\lib\clangBasic.lib;..\..\..\..\Release\lib\clangCodeGen.lib;..\..\..\..\Release\lib\clangDriver.lib;..\..\..\..\Release\lib\clangFrontend.lib;..\..\..\..\Release\lib\clangFrontendTool.lib;..\..\..\..\Release\lib\LLVMAArch64Desc.lib;..\..\..\..\Release\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\Release\lib\LLVMAArch64Info.lib;..\..\..\..\Release\lib\LLVMAArch64Utils.lib;..\..\..\..\Release\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\Release\lib\LLVMAMDGPUUtils.lib;..\..\..\..\Release\lib\LLVMARMDesc.lib;..\..\..\..\Release\lib\LLVMARMAsmPrinter.lib;..\..\..\..\Release\lib\LLVMARMInfo.lib;..\..\..\..\Release\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\Release\lib\LLVMHexagonDesc.lib;..\..\..\..\Release\lib\LLVMHexagonInfo.lib;..\..\..\..\Release\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\Release\lib\LLVMMipsInfo.lib;..\..\..\..\Release\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\Release\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\Release\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\Release\lib\LLVMPowerPCInfo.lib;..\..\..\..\Release\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\Release\lib\LLVMSparcInfo.lib;..\..\..\..\Release\lib\LLVMSystemZDesc.lib;..\..\..\..\Release\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\Release\lib\LLVMSystemZInfo.lib;..\..\..\..\Release\lib\LLVMX86CodeGen.lib;..\..\..\..\Release\lib\LLVMX86Desc.lib;..\..\..\..\Release\lib\LLVMX86AsmPrinter.lib;..\..\..\..\Release\lib\LLVMX86Utils.lib;..\..\..\..\Release\lib\LLVMX86Info.lib;..\..\..\..\Release\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\Release\lib\LLVMAsmPrinter.lib;..\..\..\..\Release\lib\LLVMSelectionDAG.lib;..\..\..\..\Release\lib\LLVMCodeGen.lib;..\..\..\..\Release\lib\LLVMXCoreInfo.lib;..\..\..\..\Release\lib\LLVMMCDisassembler.lib;..\..\..\..\Release\lib\clangCodeGen.lib;..\..\..\..\Release\lib\LLVMipo.lib;..\..\..\..\Release\lib\LLVMVectorize.lib;..\..\..\..\Release\lib\LLVMInstrumentation.lib;..\..\..\..\Release\lib\LLVMObjCARCOpts.lib;..\..\..\..\Release\lib\LLVMScalarOpts.lib;..\..\..\..\Release\lib\LLVMInstCombine.lib;..\..\..\..\Release\lib\LLVMTarget.lib;..\..\..\..\Release\lib\LLVMProfileData.lib;..\..\..\..\Release\lib\LLVMObject.lib;..\..\..\..\Release\lib\LLVMBitWriter.lib;..\..\..\..\Release\lib\LLVMIRReader.lib;..\..\..\..\Release\lib\LLVMAsmParser.lib;..\..\..\..\Release\lib\LLVMLinker.lib;..\..\..\..\Release\lib\LLVMTransformUtils.lib;..\..\..\..\Release\lib\LLVMAnalysis.lib;..\..\..\..\Release\lib\clangRewriteFrontend.lib;..\..\..\..\Release\lib\clangARCMigrate.lib;..\..\..\..\Release\lib\clangStaticAnalyzerFrontend.lib;..\..\..\..\Release\lib\clangFrontend.lib;..\..\..\..\Release\lib\clangDriver.lib;..\..\..\..\Release\lib\LLVMOption.lib;..\..\..\..\Release\lib\clangParse.lib;..\..\..\..\Release\lib\LLVMMCParser.lib;..\..\..\..\Release\lib\clangSerialization.lib;..\..\..\..\Release\lib\LLVMBitReader.lib;..\..\..\..\Release\lib\clangSema.lib;..\..\..\..\Release\lib\clangEdit.lib;..\..\..\..\Release\lib\clangStaticAnalyzerCheckers.lib;..\..\..\..\Release\lib\clangStaticAnalyzerCore.lib;..\..\..\..\Release\lib\clangAnalysis.lib;..\..\..\..\Release\lib\clangAST.lib;..\..\..\..\Release\lib\clangRewrite.lib;..\..\..\..\Release\lib\clangLex.lib;..\..\..\..\Release\lib\clangBasic.lib;..\..\..\..\Release\lib\LLVMCore.lib;..\..\..\..\Release\lib\LLVMMC.lib;..\..\..\..\Release\lib\LLVMSupport.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/Release/lib/clang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/Release/bin/clang.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang-cl.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\Release\lib\LLVMAArch64CodeGen.lib;..\..\..\..\Release\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\Release\lib\LLVMAArch64AsmParser.lib;..\..\..\..\Release\lib\LLVMAArch64Desc.lib;..\..\..\..\Release\lib\LLVMAArch64Info.lib;..\..\..\..\Release\lib\LLVMAArch64Disassembler.lib;..\..\..\..\Release\lib\LLVMAMDGPUCodeGen.lib;..\..\..\..\Release\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\Release\lib\LLVMAMDGPUAsmParser.lib;..\..\..\..\Release\lib\LLVMAMDGPUDesc.lib;..\..\..\..\Release\lib\LLVMAMDGPUInfo.lib;..\..\..\..\Release\lib\LLVMARMCodeGen.lib;..\..\..\..\Release\lib\LLVMARMAsmPrinter.lib;..\..\..\..\Release\lib\LLVMARMAsmParser.lib;..\..\..\..\Release\lib\LLVMARMDesc.lib;..\..\..\..\Release\lib\LLVMARMInfo.lib;..\..\..\..\Release\lib\LLVMARMDisassembler.lib;..\..\..\..\Release\lib\LLVMBPFCodeGen.lib;..\..\..\..\Release\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\Release\lib\LLVMBPFDesc.lib;..\..\..\..\Release\lib\LLVMBPFInfo.lib;..\..\..\..\Release\lib\LLVMCppBackendCodeGen.lib;..\..\..\..\Release\lib\LLVMCppBackendInfo.lib;..\..\..\..\Release\lib\LLVMHexagonCodeGen.lib;..\..\..\..\Release\lib\LLVMHexagonDesc.lib;..\..\..\..\Release\lib\LLVMHexagonInfo.lib;..\..\..\..\Release\lib\LLVMHexagonDisassembler.lib;..\..\..\..\Release\lib\LLVMMipsCodeGen.lib;..\..\..\..\Release\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\Release\lib\LLVMMipsAsmParser.lib;..\..\..\..\Release\lib\LLVMMipsDesc.lib;..\..\..\..\Release\lib\LLVMMipsInfo.lib;..\..\..\..\Release\lib\LLVMMipsDisassembler.lib;..\..\..\..\Release\lib\LLVMMSP430CodeGen.lib;..\..\..\..\Release\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\Release\lib\LLVMMSP430Desc.lib;..\..\..\..\Release\lib\LLVMMSP430Info.lib;..\..\..\..\Release\lib\LLVMNVPTXCodeGen.lib;..\..\..\..\Release\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\Release\lib\LLVMNVPTXDesc.lib;..\..\..\..\Release\lib\LLVMNVPTXInfo.lib;..\..\..\..\Release\lib\LLVMPowerPCCodeGen.lib;..\..\..\..\Release\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\Release\lib\LLVMPowerPCAsmParser.lib;..\..\..\..\Release\lib\LLVMPowerPCDesc.lib;..\..\..\..\Release\lib\LLVMPowerPCInfo.lib;..\..\..\..\Release\lib\LLVMPowerPCDisassembler.lib;..\..\..\..\Release\lib\LLVMSparcCodeGen.lib;..\..\..\..\Release\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\Release\lib\LLVMSparcAsmParser.lib;..\..\..\..\Release\lib\LLVMSparcDesc.lib;..\..\..\..\Release\lib\LLVMSparcInfo.lib;..\..\..\..\Release\lib\LLVMSparcDisassembler.lib;..\..\..\..\Release\lib\LLVMSystemZCodeGen.lib;..\..\..\..\Release\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\Release\lib\LLVMSystemZAsmParser.lib;..\..\..\..\Release\lib\LLVMSystemZDesc.lib;..\..\..\..\Release\lib\LLVMSystemZInfo.lib;..\..\..\..\Release\lib\LLVMSystemZDisassembler.lib;..\..\..\..\Release\lib\LLVMX86CodeGen.lib;..\..\..\..\Release\lib\LLVMX86AsmPrinter.lib;..\..\..\..\Release\lib\LLVMX86AsmParser.lib;..\..\..\..\Release\lib\LLVMX86Desc.lib;..\..\..\..\Release\lib\LLVMX86Info.lib;..\..\..\..\Release\lib\LLVMX86Disassembler.lib;..\..\..\..\Release\lib\LLVMXCoreCodeGen.lib;..\..\..\..\Release\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\Release\lib\LLVMXCoreDesc.lib;..\..\..\..\Release\lib\LLVMXCoreInfo.lib;..\..\..\..\Release\lib\LLVMXCoreDisassembler.lib;..\..\..\..\Release\lib\LLVMAnalysis.lib;..\..\..\..\Release\lib\LLVMCodeGen.lib;..\..\..\..\Release\lib\LLVMCore.lib;..\..\..\..\Release\lib\LLVMipo.lib;..\..\..\..\Release\lib\LLVMInstCombine.lib;..\..\..\..\Release\lib\LLVMInstrumentation.lib;..\..\..\..\Release\lib\LLVMMC.lib;..\..\..\..\Release\lib\LLVMMCParser.lib;..\..\..\..\Release\lib\LLVMObjCARCOpts.lib;..\..\..\..\Release\lib\LLVMOption.lib;..\..\..\..\Release\lib\LLVMScalarOpts.lib;..\..\..\..\Release\lib\LLVMSupport.lib;..\..\..\..\Release\lib\LLVMTransformUtils.lib;..\..\..\..\Release\lib\LLVMVectorize.lib;..\..\..\..\Release\lib\clangBasic.lib;..\..\..\..\Release\lib\clangCodeGen.lib;..\..\..\..\Release\lib\clangDriver.lib;..\..\..\..\Release\lib\clangFrontend.lib;..\..\..\..\Release\lib\clangFrontendTool.lib;..\..\..\..\Release\lib\LLVMAArch64Desc.lib;..\..\..\..\Release\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\Release\lib\LLVMAArch64Info.lib;..\..\..\..\Release\lib\LLVMAArch64Utils.lib;..\..\..\..\Release\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\Release\lib\LLVMAMDGPUUtils.lib;..\..\..\..\Release\lib\LLVMARMDesc.lib;..\..\..\..\Release\lib\LLVMARMAsmPrinter.lib;..\..\..\..\Release\lib\LLVMARMInfo.lib;..\..\..\..\Release\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\Release\lib\LLVMHexagonDesc.lib;..\..\..\..\Release\lib\LLVMHexagonInfo.lib;..\..\..\..\Release\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\Release\lib\LLVMMipsInfo.lib;..\..\..\..\Release\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\Release\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\Release\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\Release\lib\LLVMPowerPCInfo.lib;..\..\..\..\Release\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\Release\lib\LLVMSparcInfo.lib;..\..\..\..\Release\lib\LLVMSystemZDesc.lib;..\..\..\..\Release\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\Release\lib\LLVMSystemZInfo.lib;..\..\..\..\Release\lib\LLVMX86CodeGen.lib;..\..\..\..\Release\lib\LLVMX86Desc.lib;..\..\..\..\Release\lib\LLVMX86AsmPrinter.lib;..\..\..\..\Release\lib\LLVMX86Utils.lib;..\..\..\..\Release\lib\LLVMX86Info.lib;..\..\..\..\Release\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\Release\lib\LLVMAsmPrinter.lib;..\..\..\..\Release\lib\LLVMSelectionDAG.lib;..\..\..\..\Release\lib\LLVMCodeGen.lib;..\..\..\..\Release\lib\LLVMXCoreInfo.lib;..\..\..\..\Release\lib\LLVMMCDisassembler.lib;..\..\..\..\Release\lib\clangCodeGen.lib;..\..\..\..\Release\lib\LLVMipo.lib;..\..\..\..\Release\lib\LLVMVectorize.lib;..\..\..\..\Release\lib\LLVMInstrumentation.lib;..\..\..\..\Release\lib\LLVMObjCARCOpts.lib;..\..\..\..\Release\lib\LLVMScalarOpts.lib;..\..\..\..\Release\lib\LLVMInstCombine.lib;..\..\..\..\Release\lib\LLVMTarget.lib;..\..\..\..\Release\lib\LLVMProfileData.lib;..\..\..\..\Release\lib\LLVMObject.lib;..\..\..\..\Release\lib\LLVMBitWriter.lib;..\..\..\..\Release\lib\LLVMIRReader.lib;..\..\..\..\Release\lib\LLVMAsmParser.lib;..\..\..\..\Release\lib\LLVMLinker.lib;..\..\..\..\Release\lib\LLVMTransformUtils.lib;..\..\..\..\Release\lib\LLVMAnalysis.lib;..\..\..\..\Release\lib\clangRewriteFrontend.lib;..\..\..\..\Release\lib\clangARCMigrate.lib;..\..\..\..\Release\lib\clangStaticAnalyzerFrontend.lib;..\..\..\..\Release\lib\clangFrontend.lib;..\..\..\..\Release\lib\clangDriver.lib;..\..\..\..\Release\lib\LLVMOption.lib;..\..\..\..\Release\lib\clangParse.lib;..\..\..\..\Release\lib\LLVMMCParser.lib;..\..\..\..\Release\lib\clangSerialization.lib;..\..\..\..\Release\lib\LLVMBitReader.lib;..\..\..\..\Release\lib\clangSema.lib;..\..\..\..\Release\lib\clangEdit.lib;..\..\..\..\Release\lib\clangStaticAnalyzerCheckers.lib;..\..\..\..\Release\lib\clangStaticAnalyzerCore.lib;..\..\..\..\Release\lib\clangAnalysis.lib;..\..\..\..\Release\lib\clangAST.lib;..\..\..\..\Release\lib\clangRewrite.lib;..\..\..\..\Release\lib\clangLex.lib;..\..\..\..\Release\lib\clangBasic.lib;..\..\..\..\Release\lib\LLVMCore.lib;..\..\..\..\Release\lib\LLVMMC.lib;..\..\..\..\Release\lib\LLVMSupport.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/Release/lib/clang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/Release/bin/clang.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang-cl.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64CodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64AsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Desc.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Info.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Disassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMARMCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMARMAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMARMAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMARMDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMARMInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMARMDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMBPFCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMBPFDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMBPFInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMCppBackendCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMCppBackendInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMMSP430CodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMMSP430Desc.lib;..\..\..\..\MinSizeRel\lib\LLVMMSP430Info.lib;..\..\..\..\MinSizeRel\lib\LLVMNVPTXCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMNVPTXDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMNVPTXInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMX86CodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMX86AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMX86AsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Desc.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Info.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Disassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMAnalysis.lib;..\..\..\..\MinSizeRel\lib\LLVMCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMCore.lib;..\..\..\..\MinSizeRel\lib\LLVMipo.lib;..\..\..\..\MinSizeRel\lib\LLVMInstCombine.lib;..\..\..\..\MinSizeRel\lib\LLVMInstrumentation.lib;..\..\..\..\MinSizeRel\lib\LLVMMC.lib;..\..\..\..\MinSizeRel\lib\LLVMMCParser.lib;..\..\..\..\MinSizeRel\lib\LLVMObjCARCOpts.lib;..\..\..\..\MinSizeRel\lib\LLVMOption.lib;..\..\..\..\MinSizeRel\lib\LLVMScalarOpts.lib;..\..\..\..\MinSizeRel\lib\LLVMSupport.lib;..\..\..\..\MinSizeRel\lib\LLVMTransformUtils.lib;..\..\..\..\MinSizeRel\lib\LLVMVectorize.lib;..\..\..\..\MinSizeRel\lib\clangBasic.lib;..\..\..\..\MinSizeRel\lib\clangCodeGen.lib;..\..\..\..\MinSizeRel\lib\clangDriver.lib;..\..\..\..\MinSizeRel\lib\clangFrontend.lib;..\..\..\..\MinSizeRel\lib\clangFrontendTool.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Desc.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Info.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Utils.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUUtils.lib;..\..\..\..\MinSizeRel\lib\LLVMARMDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMARMAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMARMInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMX86CodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Desc.lib;..\..\..\..\MinSizeRel\lib\LLVMX86AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Utils.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Info.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMSelectionDAG.lib;..\..\..\..\MinSizeRel\lib\LLVMCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMMCDisassembler.lib;..\..\..\..\MinSizeRel\lib\clangCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMipo.lib;..\..\..\..\MinSizeRel\lib\LLVMVectorize.lib;..\..\..\..\MinSizeRel\lib\LLVMInstrumentation.lib;..\..\..\..\MinSizeRel\lib\LLVMObjCARCOpts.lib;..\..\..\..\MinSizeRel\lib\LLVMScalarOpts.lib;..\..\..\..\MinSizeRel\lib\LLVMInstCombine.lib;..\..\..\..\MinSizeRel\lib\LLVMTarget.lib;..\..\..\..\MinSizeRel\lib\LLVMProfileData.lib;..\..\..\..\MinSizeRel\lib\LLVMObject.lib;..\..\..\..\MinSizeRel\lib\LLVMBitWriter.lib;..\..\..\..\MinSizeRel\lib\LLVMIRReader.lib;..\..\..\..\MinSizeRel\lib\LLVMAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMLinker.lib;..\..\..\..\MinSizeRel\lib\LLVMTransformUtils.lib;..\..\..\..\MinSizeRel\lib\LLVMAnalysis.lib;..\..\..\..\MinSizeRel\lib\clangRewriteFrontend.lib;..\..\..\..\MinSizeRel\lib\clangARCMigrate.lib;..\..\..\..\MinSizeRel\lib\clangStaticAnalyzerFrontend.lib;..\..\..\..\MinSizeRel\lib\clangFrontend.lib;..\..\..\..\MinSizeRel\lib\clangDriver.lib;..\..\..\..\MinSizeRel\lib\LLVMOption.lib;..\..\..\..\MinSizeRel\lib\clangParse.lib;..\..\..\..\MinSizeRel\lib\LLVMMCParser.lib;..\..\..\..\MinSizeRel\lib\clangSerialization.lib;..\..\..\..\MinSizeRel\lib\LLVMBitReader.lib;..\..\..\..\MinSizeRel\lib\clangSema.lib;..\..\..\..\MinSizeRel\lib\clangEdit.lib;..\..\..\..\MinSizeRel\lib\clangStaticAnalyzerCheckers.lib;..\..\..\..\MinSizeRel\lib\clangStaticAnalyzerCore.lib;..\..\..\..\MinSizeRel\lib\clangAnalysis.lib;..\..\..\..\MinSizeRel\lib\clangAST.lib;..\..\..\..\MinSizeRel\lib\clangRewrite.lib;..\..\..\..\MinSizeRel\lib\clangLex.lib;..\..\..\..\MinSizeRel\lib\clangBasic.lib;..\..\..\..\MinSizeRel\lib\LLVMCore.lib;..\..\..\..\MinSizeRel\lib\LLVMMC.lib;..\..\..\..\MinSizeRel\lib\LLVMSupport.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/MinSizeRel/lib/clang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/MinSizeRel/bin/clang.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang-cl.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64CodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64AsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Desc.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Info.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Disassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMARMCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMARMAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMARMAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMARMDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMARMInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMARMDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMBPFCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMBPFDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMBPFInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMCppBackendCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMCppBackendInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMMSP430CodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMMSP430Desc.lib;..\..\..\..\MinSizeRel\lib\LLVMMSP430Info.lib;..\..\..\..\MinSizeRel\lib\LLVMNVPTXCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMNVPTXDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMNVPTXInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMX86CodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMX86AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMX86AsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Desc.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Info.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Disassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreDisassembler.lib;..\..\..\..\MinSizeRel\lib\LLVMAnalysis.lib;..\..\..\..\MinSizeRel\lib\LLVMCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMCore.lib;..\..\..\..\MinSizeRel\lib\LLVMipo.lib;..\..\..\..\MinSizeRel\lib\LLVMInstCombine.lib;..\..\..\..\MinSizeRel\lib\LLVMInstrumentation.lib;..\..\..\..\MinSizeRel\lib\LLVMMC.lib;..\..\..\..\MinSizeRel\lib\LLVMMCParser.lib;..\..\..\..\MinSizeRel\lib\LLVMObjCARCOpts.lib;..\..\..\..\MinSizeRel\lib\LLVMOption.lib;..\..\..\..\MinSizeRel\lib\LLVMScalarOpts.lib;..\..\..\..\MinSizeRel\lib\LLVMSupport.lib;..\..\..\..\MinSizeRel\lib\LLVMTransformUtils.lib;..\..\..\..\MinSizeRel\lib\LLVMVectorize.lib;..\..\..\..\MinSizeRel\lib\clangBasic.lib;..\..\..\..\MinSizeRel\lib\clangCodeGen.lib;..\..\..\..\MinSizeRel\lib\clangDriver.lib;..\..\..\..\MinSizeRel\lib\clangFrontend.lib;..\..\..\..\MinSizeRel\lib\clangFrontendTool.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Desc.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Info.lib;..\..\..\..\MinSizeRel\lib\LLVMAArch64Utils.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMAMDGPUUtils.lib;..\..\..\..\MinSizeRel\lib\LLVMARMDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMARMAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMARMInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMHexagonInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMMipsInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMPowerPCInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMSparcInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZDesc.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMSystemZInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMX86CodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Desc.lib;..\..\..\..\MinSizeRel\lib\LLVMX86AsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Utils.lib;..\..\..\..\MinSizeRel\lib\LLVMX86Info.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMAsmPrinter.lib;..\..\..\..\MinSizeRel\lib\LLVMSelectionDAG.lib;..\..\..\..\MinSizeRel\lib\LLVMCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMXCoreInfo.lib;..\..\..\..\MinSizeRel\lib\LLVMMCDisassembler.lib;..\..\..\..\MinSizeRel\lib\clangCodeGen.lib;..\..\..\..\MinSizeRel\lib\LLVMipo.lib;..\..\..\..\MinSizeRel\lib\LLVMVectorize.lib;..\..\..\..\MinSizeRel\lib\LLVMInstrumentation.lib;..\..\..\..\MinSizeRel\lib\LLVMObjCARCOpts.lib;..\..\..\..\MinSizeRel\lib\LLVMScalarOpts.lib;..\..\..\..\MinSizeRel\lib\LLVMInstCombine.lib;..\..\..\..\MinSizeRel\lib\LLVMTarget.lib;..\..\..\..\MinSizeRel\lib\LLVMProfileData.lib;..\..\..\..\MinSizeRel\lib\LLVMObject.lib;..\..\..\..\MinSizeRel\lib\LLVMBitWriter.lib;..\..\..\..\MinSizeRel\lib\LLVMIRReader.lib;..\..\..\..\MinSizeRel\lib\LLVMAsmParser.lib;..\..\..\..\MinSizeRel\lib\LLVMLinker.lib;..\..\..\..\MinSizeRel\lib\LLVMTransformUtils.lib;..\..\..\..\MinSizeRel\lib\LLVMAnalysis.lib;..\..\..\..\MinSizeRel\lib\clangRewriteFrontend.lib;..\..\..\..\MinSizeRel\lib\clangARCMigrate.lib;..\..\..\..\MinSizeRel\lib\clangStaticAnalyzerFrontend.lib;..\..\..\..\MinSizeRel\lib\clangFrontend.lib;..\..\..\..\MinSizeRel\lib\clangDriver.lib;..\..\..\..\MinSizeRel\lib\LLVMOption.lib;..\..\..\..\MinSizeRel\lib\clangParse.lib;..\..\..\..\MinSizeRel\lib\LLVMMCParser.lib;..\..\..\..\MinSizeRel\lib\clangSerialization.lib;..\..\..\..\MinSizeRel\lib\LLVMBitReader.lib;..\..\..\..\MinSizeRel\lib\clangSema.lib;..\..\..\..\MinSizeRel\lib\clangEdit.lib;..\..\..\..\MinSizeRel\lib\clangStaticAnalyzerCheckers.lib;..\..\..\..\MinSizeRel\lib\clangStaticAnalyzerCore.lib;..\..\..\..\MinSizeRel\lib\clangAnalysis.lib;..\..\..\..\MinSizeRel\lib\clangAST.lib;..\..\..\..\MinSizeRel\lib\clangRewrite.lib;..\..\..\..\MinSizeRel\lib\clangLex.lib;..\..\..\..\MinSizeRel\lib\clangBasic.lib;..\..\..\..\MinSizeRel\lib\LLVMCore.lib;..\..\..\..\MinSizeRel\lib\LLVMMC.lib;..\..\..\..\MinSizeRel\lib\LLVMSupport.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/MinSizeRel/lib/clang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/MinSizeRel/bin/clang.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang-cl.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64CodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64AsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Desc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Info.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Disassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBPFCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBPFDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBPFInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCppBackendCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCppBackendInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMSP430CodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMSP430Desc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMSP430Info.lib;..\..\..\..\RelWithDebInfo\lib\LLVMNVPTXCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMNVPTXDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMNVPTXInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86CodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86AsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Desc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Info.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Disassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAnalysis.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCore.lib;..\..\..\..\RelWithDebInfo\lib\LLVMipo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMInstCombine.lib;..\..\..\..\RelWithDebInfo\lib\LLVMInstrumentation.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMC.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMCParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMObjCARCOpts.lib;..\..\..\..\RelWithDebInfo\lib\LLVMOption.lib;..\..\..\..\RelWithDebInfo\lib\LLVMScalarOpts.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSupport.lib;..\..\..\..\RelWithDebInfo\lib\LLVMTransformUtils.lib;..\..\..\..\RelWithDebInfo\lib\LLVMVectorize.lib;..\..\..\..\RelWithDebInfo\lib\clangBasic.lib;..\..\..\..\RelWithDebInfo\lib\clangCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\clangDriver.lib;..\..\..\..\RelWithDebInfo\lib\clangFrontend.lib;..\..\..\..\RelWithDebInfo\lib\clangFrontendTool.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Desc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Info.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Utils.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUUtils.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86CodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Desc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Utils.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Info.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSelectionDAG.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMCDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\clangCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMipo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMVectorize.lib;..\..\..\..\RelWithDebInfo\lib\LLVMInstrumentation.lib;..\..\..\..\RelWithDebInfo\lib\LLVMObjCARCOpts.lib;..\..\..\..\RelWithDebInfo\lib\LLVMScalarOpts.lib;..\..\..\..\RelWithDebInfo\lib\LLVMInstCombine.lib;..\..\..\..\RelWithDebInfo\lib\LLVMTarget.lib;..\..\..\..\RelWithDebInfo\lib\LLVMProfileData.lib;..\..\..\..\RelWithDebInfo\lib\LLVMObject.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBitWriter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMIRReader.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMLinker.lib;..\..\..\..\RelWithDebInfo\lib\LLVMTransformUtils.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAnalysis.lib;..\..\..\..\RelWithDebInfo\lib\clangRewriteFrontend.lib;..\..\..\..\RelWithDebInfo\lib\clangARCMigrate.lib;..\..\..\..\RelWithDebInfo\lib\clangStaticAnalyzerFrontend.lib;..\..\..\..\RelWithDebInfo\lib\clangFrontend.lib;..\..\..\..\RelWithDebInfo\lib\clangDriver.lib;..\..\..\..\RelWithDebInfo\lib\LLVMOption.lib;..\..\..\..\RelWithDebInfo\lib\clangParse.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMCParser.lib;..\..\..\..\RelWithDebInfo\lib\clangSerialization.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBitReader.lib;..\..\..\..\RelWithDebInfo\lib\clangSema.lib;..\..\..\..\RelWithDebInfo\lib\clangEdit.lib;..\..\..\..\RelWithDebInfo\lib\clangStaticAnalyzerCheckers.lib;..\..\..\..\RelWithDebInfo\lib\clangStaticAnalyzerCore.lib;..\..\..\..\RelWithDebInfo\lib\clangAnalysis.lib;..\..\..\..\RelWithDebInfo\lib\clangAST.lib;..\..\..\..\RelWithDebInfo\lib\clangRewrite.lib;..\..\..\..\RelWithDebInfo\lib\clangLex.lib;..\..\..\..\RelWithDebInfo\lib\clangBasic.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCore.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMC.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSupport.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/RelWithDebInfo/lib/clang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/RelWithDebInfo/bin/clang.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CLANG_ENABLE_ARCMT;CLANG_ENABLE_OBJC_REWRITER;CLANG_ENABLE_STATIC_ANALYZER;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\include;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang++.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+cd C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\$(Configuration)\bin
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -E copy C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang.exe C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/$(Configuration)/bin/clang-cl.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64CodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64AsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Desc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Info.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Disassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBPFCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBPFDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBPFInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCppBackendCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCppBackendInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMSP430CodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMSP430Desc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMSP430Info.lib;..\..\..\..\RelWithDebInfo\lib\LLVMNVPTXCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMNVPTXDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMNVPTXInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86CodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86AsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Desc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Info.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Disassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAnalysis.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCore.lib;..\..\..\..\RelWithDebInfo\lib\LLVMipo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMInstCombine.lib;..\..\..\..\RelWithDebInfo\lib\LLVMInstrumentation.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMC.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMCParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMObjCARCOpts.lib;..\..\..\..\RelWithDebInfo\lib\LLVMOption.lib;..\..\..\..\RelWithDebInfo\lib\LLVMScalarOpts.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSupport.lib;..\..\..\..\RelWithDebInfo\lib\LLVMTransformUtils.lib;..\..\..\..\RelWithDebInfo\lib\LLVMVectorize.lib;..\..\..\..\RelWithDebInfo\lib\clangBasic.lib;..\..\..\..\RelWithDebInfo\lib\clangCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\clangDriver.lib;..\..\..\..\RelWithDebInfo\lib\clangFrontend.lib;..\..\..\..\RelWithDebInfo\lib\clangFrontendTool.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Desc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Info.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAArch64Utils.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAMDGPUUtils.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMARMInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBPFAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMHexagonInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMipsInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMSP430AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMNVPTXAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMPowerPCInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSparcInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZDesc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSystemZInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86CodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Desc.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86AsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Utils.lib;..\..\..\..\RelWithDebInfo\lib\LLVMX86Info.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAsmPrinter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSelectionDAG.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMXCoreInfo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMCDisassembler.lib;..\..\..\..\RelWithDebInfo\lib\clangCodeGen.lib;..\..\..\..\RelWithDebInfo\lib\LLVMipo.lib;..\..\..\..\RelWithDebInfo\lib\LLVMVectorize.lib;..\..\..\..\RelWithDebInfo\lib\LLVMInstrumentation.lib;..\..\..\..\RelWithDebInfo\lib\LLVMObjCARCOpts.lib;..\..\..\..\RelWithDebInfo\lib\LLVMScalarOpts.lib;..\..\..\..\RelWithDebInfo\lib\LLVMInstCombine.lib;..\..\..\..\RelWithDebInfo\lib\LLVMTarget.lib;..\..\..\..\RelWithDebInfo\lib\LLVMProfileData.lib;..\..\..\..\RelWithDebInfo\lib\LLVMObject.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBitWriter.lib;..\..\..\..\RelWithDebInfo\lib\LLVMIRReader.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAsmParser.lib;..\..\..\..\RelWithDebInfo\lib\LLVMLinker.lib;..\..\..\..\RelWithDebInfo\lib\LLVMTransformUtils.lib;..\..\..\..\RelWithDebInfo\lib\LLVMAnalysis.lib;..\..\..\..\RelWithDebInfo\lib\clangRewriteFrontend.lib;..\..\..\..\RelWithDebInfo\lib\clangARCMigrate.lib;..\..\..\..\RelWithDebInfo\lib\clangStaticAnalyzerFrontend.lib;..\..\..\..\RelWithDebInfo\lib\clangFrontend.lib;..\..\..\..\RelWithDebInfo\lib\clangDriver.lib;..\..\..\..\RelWithDebInfo\lib\LLVMOption.lib;..\..\..\..\RelWithDebInfo\lib\clangParse.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMCParser.lib;..\..\..\..\RelWithDebInfo\lib\clangSerialization.lib;..\..\..\..\RelWithDebInfo\lib\LLVMBitReader.lib;..\..\..\..\RelWithDebInfo\lib\clangSema.lib;..\..\..\..\RelWithDebInfo\lib\clangEdit.lib;..\..\..\..\RelWithDebInfo\lib\clangStaticAnalyzerCheckers.lib;..\..\..\..\RelWithDebInfo\lib\clangStaticAnalyzerCore.lib;..\..\..\..\RelWithDebInfo\lib\clangAnalysis.lib;..\..\..\..\RelWithDebInfo\lib\clangAST.lib;..\..\..\..\RelWithDebInfo\lib\clangRewrite.lib;..\..\..\..\RelWithDebInfo\lib\clangLex.lib;..\..\..\..\RelWithDebInfo\lib\clangBasic.lib;..\..\..\..\RelWithDebInfo\lib\LLVMCore.lib;..\..\..\..\RelWithDebInfo\lib\LLVMMC.lib;..\..\..\..\RelWithDebInfo\lib\LLVMSupport.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/RelWithDebInfo/lib/clang.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/RelWithDebInfo/bin/clang.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/tools/driver/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\tools\clang\tools\driver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\driver.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\cc1_main.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\tools\clang\tools\driver\cc1as_main.cpp" />
+    <ResourceCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\resources\windows_version_resource.rc">
+      <SuppressStartupBanner Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</SuppressStartupBanner>
+      <SuppressStartupBanner Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</SuppressStartupBanner>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RC_VERSION_FIELD_1=3;RC_VERSION_FIELD_2=8;RC_VERSION_FIELD_3=0;RC_VERSION_FIELD_4=0;RC_FILE_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";RC_INTERNAL_NAME=\"clang\";RC_PRODUCT_NAME=\"clang\";RC_PRODUCT_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RC_VERSION_FIELD_1=3;RC_VERSION_FIELD_2=8;RC_VERSION_FIELD_3=0;RC_VERSION_FIELD_4=0;RC_FILE_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";RC_INTERNAL_NAME=\"clang\";RC_PRODUCT_NAME=\"clang\";RC_PRODUCT_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SuppressStartupBanner Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</SuppressStartupBanner>
+      <SuppressStartupBanner Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</SuppressStartupBanner>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RC_VERSION_FIELD_1=3;RC_VERSION_FIELD_2=8;RC_VERSION_FIELD_3=0;RC_VERSION_FIELD_4=0;RC_FILE_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";RC_INTERNAL_NAME=\"clang\";RC_PRODUCT_NAME=\"clang\";RC_PRODUCT_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RC_VERSION_FIELD_1=3;RC_VERSION_FIELD_2=8;RC_VERSION_FIELD_3=0;RC_VERSION_FIELD_4=0;RC_FILE_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";RC_INTERNAL_NAME=\"clang\";RC_PRODUCT_NAME=\"clang\";RC_PRODUCT_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SuppressStartupBanner Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</SuppressStartupBanner>
+      <SuppressStartupBanner Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</SuppressStartupBanner>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RC_VERSION_FIELD_1=3;RC_VERSION_FIELD_2=8;RC_VERSION_FIELD_3=0;RC_VERSION_FIELD_4=0;RC_FILE_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";RC_INTERNAL_NAME=\"clang\";RC_PRODUCT_NAME=\"clang\";RC_PRODUCT_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RC_VERSION_FIELD_1=3;RC_VERSION_FIELD_2=8;RC_VERSION_FIELD_3=0;RC_VERSION_FIELD_4=0;RC_FILE_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";RC_INTERNAL_NAME=\"clang\";RC_PRODUCT_NAME=\"clang\";RC_PRODUCT_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SuppressStartupBanner Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</SuppressStartupBanner>
+      <SuppressStartupBanner Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</SuppressStartupBanner>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RC_VERSION_FIELD_1=3;RC_VERSION_FIELD_2=8;RC_VERSION_FIELD_3=0;RC_VERSION_FIELD_4=0;RC_FILE_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";RC_INTERNAL_NAME=\"clang\";RC_PRODUCT_NAME=\"clang\";RC_PRODUCT_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RC_VERSION_FIELD_1=3;RC_VERSION_FIELD_2=8;RC_VERSION_FIELD_3=0;RC_VERSION_FIELD_4=0;RC_FILE_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";RC_INTERNAL_NAME=\"clang\";RC_PRODUCT_NAME=\"clang\";RC_PRODUCT_VERSION=\"3.8.0 (LLVM 3.8.0svn)\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangARMNeon.vcxproj">
+      <Project>C31F7CC0-78E8-4D67-810B-E0AE2439F5E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangAttrClasses.vcxproj">
+      <Project>B2031266-902C-418D-9CFF-3DA8AF6CCC73</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangAttrDump.vcxproj">
+      <Project>77FE8600-1BB5-4A36-B6B4-D3A483D867FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangAttrHasAttributeImpl.vcxproj">
+      <Project>81847735-E5BC-4BCB-B749-B2EE1E61EC52</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangAttrImpl.vcxproj">
+      <Project>14C8FB47-C370-4906-8FEE-3662C9AE970B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangAttrList.vcxproj">
+      <Project>83024EC0-68F8-4012-AE61-C26FF8C6B0CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Serialization/ClangAttrPCHRead.vcxproj">
+      <Project>B45E269F-5C44-4D0B-B1CD-F81297ABDFF5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Serialization/ClangAttrPCHWrite.vcxproj">
+      <Project>8831E201-2E28-42F8-B3DE-C6CB94D81576</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Sema/ClangAttrParsedAttrImpl.vcxproj">
+      <Project>3856626A-7154-4962-8C46-11A2BF2FDCBF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Sema/ClangAttrParsedAttrKinds.vcxproj">
+      <Project>C2270698-F32F-4978-A1AC-4428C4B60C8A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Sema/ClangAttrParsedAttrList.vcxproj">
+      <Project>8FCB14CE-CFA5-4836-A448-6B8196B4FEF1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Parse/ClangAttrParserStringSwitches.vcxproj">
+      <Project>2089304F-4D7D-4B12-A526-05A125682AC2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Sema/ClangAttrSpellingListIndex.vcxproj">
+      <Project>77A1A074-25CC-4BD4-B8BB-B74353034136</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Sema/ClangAttrTemplateInstantiate.vcxproj">
+      <Project>74822109-CF63-4145-8AF0-29DBC6190496</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangAttrVisitor.vcxproj">
+      <Project>49C1B882-BA82-4E3F-B453-D4D0FE725AE6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangCommentCommandInfo.vcxproj">
+      <Project>FD40A118-B55F-4D79-9BBF-7131D1684D87</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangCommentCommandList.vcxproj">
+      <Project>962F9F5A-0B82-4B37-964D-C0ED336F8337</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangCommentHTMLNamedCharacterReferences.vcxproj">
+      <Project>C34D1502-20B5-40B5-A4A2-E0133C78CC31</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangCommentHTMLTags.vcxproj">
+      <Project>63D8DF0C-7C4A-4B20-A45B-FBA85E74A915</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangCommentHTMLTagsProperties.vcxproj">
+      <Project>BDEC6F2A-42F9-4188-A6CF-1FDDA246CAE2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangCommentNodes.vcxproj">
+      <Project>A36838F7-3EF2-4182-8EB8-8E87B8F6F9DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangDeclNodes.vcxproj">
+      <Project>9CAAC033-E7E0-46CB-AB5E-2E6F2DF0D6EB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticAST.vcxproj">
+      <Project>21D169BA-6C82-4AC9-BAA5-FFE78B50A613</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticAnalysis.vcxproj">
+      <Project>A3458FBC-C1FB-4E16-B4F9-BAA63AA528D2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticComment.vcxproj">
+      <Project>94BB24F5-908F-4F05-A369-63D6BC419C6D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticCommon.vcxproj">
+      <Project>8474C8FF-DBEF-433B-99D4-1976846D77D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticDriver.vcxproj">
+      <Project>B80FCEB1-573B-4CDB-B425-4A7D4C3AFAFC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticFrontend.vcxproj">
+      <Project>C62C33DC-FB55-4BE2-9CBD-B75F9730FEDF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticGroups.vcxproj">
+      <Project>EF6C9366-D303-4CF8-8F5F-5E3B4C6534AA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticIndexName.vcxproj">
+      <Project>B93A0777-C3CC-46A1-89C1-657DE63FE7CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticLex.vcxproj">
+      <Project>D93CE26B-1793-4DC9-8863-F5A2826E3E2A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticParse.vcxproj">
+      <Project>ECABAC06-78BF-41FE-963E-3898B896AA6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticSema.vcxproj">
+      <Project>6080114D-FDF9-4CF8-90F2-05AF2D672923</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/Basic/ClangDiagnosticSerialization.vcxproj">
+      <Project>3CD8239F-74BC-401C-8E0D-8E28E46BFEE2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/include/clang/AST/ClangStmtNodes.vcxproj">
+      <Project>12F4C254-5F34-44AC-9B7B-6DEE0196E7F9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AArch64/AsmParser/LLVMAArch64AsmParser.vcxproj">
+      <Project>1AE54C12-A3ED-425B-8C6B-1D997182A5AE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AArch64/InstPrinter/LLVMAArch64AsmPrinter.vcxproj">
+      <Project>F29FA230-634B-431D-9512-412D076B6CB8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AArch64/LLVMAArch64CodeGen.vcxproj">
+      <Project>5EDB60DC-30DD-420C-B926-5B6FD509859E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AArch64/MCTargetDesc/LLVMAArch64Desc.vcxproj">
+      <Project>7C921A60-8D06-441B-81FC-3F90DE7A2E53</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AArch64/Disassembler/LLVMAArch64Disassembler.vcxproj">
+      <Project>28D18C6C-E2E8-4FC3-A565-030D153A34CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AArch64/TargetInfo/LLVMAArch64Info.vcxproj">
+      <Project>F44A938A-B4F4-464A-888C-E5B5B24F3DE1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AArch64/Utils/LLVMAArch64Utils.vcxproj">
+      <Project>9E653FBB-B31D-44F1-87B8-9A8292945F0C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AMDGPU/AsmParser/LLVMAMDGPUAsmParser.vcxproj">
+      <Project>C27ABA0E-2B5D-4242-BB9F-84E118D9DBD2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AMDGPU/InstPrinter/LLVMAMDGPUAsmPrinter.vcxproj">
+      <Project>1269DFA3-E735-4599-B26E-B037039DF9FE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AMDGPU/LLVMAMDGPUCodeGen.vcxproj">
+      <Project>77BDEF91-9543-43C6-9256-A0430E9BC4FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AMDGPU/MCTargetDesc/LLVMAMDGPUDesc.vcxproj">
+      <Project>BD8400A0-6690-48A6-B945-3874A4E48203</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AMDGPU/TargetInfo/LLVMAMDGPUInfo.vcxproj">
+      <Project>19C0C7F3-8D22-4895-A58C-F267CB428F28</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/AMDGPU/Utils/LLVMAMDGPUUtils.vcxproj">
+      <Project>5E2F08B3-FB7B-4D2E-86CE-9C776AF058A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/ARM/AsmParser/LLVMARMAsmParser.vcxproj">
+      <Project>E255AAAA-741C-42F6-B934-E26AB989D63D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/ARM/InstPrinter/LLVMARMAsmPrinter.vcxproj">
+      <Project>04695E03-1DD6-44A6-BFC7-DA78522BBF87</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/ARM/LLVMARMCodeGen.vcxproj">
+      <Project>0426A303-8867-4F61-A24F-4435DADDC25B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/ARM/MCTargetDesc/LLVMARMDesc.vcxproj">
+      <Project>58E1F294-66D9-4F1A-8A32-ADFACF7FB099</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/ARM/Disassembler/LLVMARMDisassembler.vcxproj">
+      <Project>A1B7103C-9160-4AE8-A839-1E9B015A0EB2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/ARM/TargetInfo/LLVMARMInfo.vcxproj">
+      <Project>19BC502F-92F0-432A-8A1D-648E00E0F0DC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Analysis/LLVMAnalysis.vcxproj">
+      <Project>07FCADC2-FEA6-4F9A-AE66-8170CB234226</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/AsmParser/LLVMAsmParser.vcxproj">
+      <Project>1FD54684-D17D-4D36-8901-9BD4294CA827</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/CodeGen/AsmPrinter/LLVMAsmPrinter.vcxproj">
+      <Project>44A22C00-6C50-4B54-8733-36707F5DA7F1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/BPF/InstPrinter/LLVMBPFAsmPrinter.vcxproj">
+      <Project>3AF08DAE-E3A3-4DAE-A843-E7E835BABC22</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/BPF/LLVMBPFCodeGen.vcxproj">
+      <Project>459A7004-788E-49BE-8228-7DAF8384FD3C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/BPF/MCTargetDesc/LLVMBPFDesc.vcxproj">
+      <Project>70E6CF4E-9E8D-4A13-AA7C-515B38E836B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/BPF/TargetInfo/LLVMBPFInfo.vcxproj">
+      <Project>E7CCF2A8-1435-46AF-AE2B-DCEB06BD8AF1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Bitcode/Reader/LLVMBitReader.vcxproj">
+      <Project>5889F961-565B-4E3F-ADC5-371E1E232959</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Bitcode/Writer/LLVMBitWriter.vcxproj">
+      <Project>6CBCFC54-315B-4E3B-845B-D002BCEB2E13</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/CodeGen/LLVMCodeGen.vcxproj">
+      <Project>96913E59-3386-498C-B16A-3584F8D91C1B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/IR/LLVMCore.vcxproj">
+      <Project>C4534320-590F-4DEE-A854-6655803920BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/CppBackend/LLVMCppBackendCodeGen.vcxproj">
+      <Project>D4DA38C3-D378-4642-BEA6-F62F0127B93E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/CppBackend/TargetInfo/LLVMCppBackendInfo.vcxproj">
+      <Project>B8927149-C7EB-4CAD-867D-E1DA3E160190</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Hexagon/LLVMHexagonCodeGen.vcxproj">
+      <Project>4970D95B-23DE-4DC8-9949-10B6D3D478BD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Hexagon/MCTargetDesc/LLVMHexagonDesc.vcxproj">
+      <Project>FC9066C6-E548-4E1A-B9BB-A65781C4A3C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Hexagon/Disassembler/LLVMHexagonDisassembler.vcxproj">
+      <Project>8A896DF4-ABF3-4E45-8474-365DC7693A2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Hexagon/TargetInfo/LLVMHexagonInfo.vcxproj">
+      <Project>AEA71A8D-AE9A-411D-AA8B-7BFC212A64CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/IRReader/LLVMIRReader.vcxproj">
+      <Project>A0397B21-7BE9-4F56-AAFF-54720D9D2329</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Transforms/InstCombine/LLVMInstCombine.vcxproj">
+      <Project>2D24A8A0-03B9-4A86-AF5D-B247B7F73BE3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Transforms/Instrumentation/LLVMInstrumentation.vcxproj">
+      <Project>2506ABEE-2B9D-4FD6-BC20-98C73AA4CB36</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Linker/LLVMLinker.vcxproj">
+      <Project>0193D8CF-E541-4B11-8757-9E41F4C8B54D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/MC/LLVMMC.vcxproj">
+      <Project>0F622B2F-0D09-4F3F-995E-F075365B9B6C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/MC/MCDisassembler/LLVMMCDisassembler.vcxproj">
+      <Project>5CDA895E-144A-4BE2-8CA5-6AE4AEDC0A51</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/MC/MCParser/LLVMMCParser.vcxproj">
+      <Project>B8013451-F226-4F0F-B9CC-0EAF3FA22AD2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/MSP430/InstPrinter/LLVMMSP430AsmPrinter.vcxproj">
+      <Project>0A05C324-DC28-48D9-886C-88AA3C2FAE41</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/MSP430/LLVMMSP430CodeGen.vcxproj">
+      <Project>627B35DA-21A8-4014-A165-42605DEF16B4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/MSP430/MCTargetDesc/LLVMMSP430Desc.vcxproj">
+      <Project>D7D6ECCA-94CF-4381-AD7D-B28129598B93</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/MSP430/TargetInfo/LLVMMSP430Info.vcxproj">
+      <Project>7D1B0A78-831F-474F-898A-2EB5AD79343F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Mips/AsmParser/LLVMMipsAsmParser.vcxproj">
+      <Project>565B141A-00EB-415A-B18D-07847B760545</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Mips/InstPrinter/LLVMMipsAsmPrinter.vcxproj">
+      <Project>5408F596-D2D9-4D7E-9F77-E9B6B1681A83</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Mips/LLVMMipsCodeGen.vcxproj">
+      <Project>8B432CBE-5790-413A-BF53-A7E620FE7489</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Mips/MCTargetDesc/LLVMMipsDesc.vcxproj">
+      <Project>6607202A-0E01-4275-A628-92AC719E177F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Mips/Disassembler/LLVMMipsDisassembler.vcxproj">
+      <Project>C77DC3A1-207C-42DB-89D1-514068CFA8A2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Mips/TargetInfo/LLVMMipsInfo.vcxproj">
+      <Project>7B00836D-297B-4F4C-9C03-867C91C6918C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/NVPTX/InstPrinter/LLVMNVPTXAsmPrinter.vcxproj">
+      <Project>42ACD1C8-9B33-4468-A356-B08D820BDF2E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/NVPTX/LLVMNVPTXCodeGen.vcxproj">
+      <Project>DB9059AA-D5E0-4D89-973D-D13563DA4AB1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/NVPTX/MCTargetDesc/LLVMNVPTXDesc.vcxproj">
+      <Project>33C5E722-5330-427C-AD59-DD7ABB622E4B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/NVPTX/TargetInfo/LLVMNVPTXInfo.vcxproj">
+      <Project>CAF44953-4103-4A5D-A0A7-C1257DE370C6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Transforms/ObjCARC/LLVMObjCARCOpts.vcxproj">
+      <Project>BFE8E7A4-692F-404A-8452-93F8C2069F6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Object/LLVMObject.vcxproj">
+      <Project>7C678272-C3B9-475A-8022-A4930C64A352</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Option/LLVMOption.vcxproj">
+      <Project>7955C4FF-7263-41FD-8D34-4730BDB12DE7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/PowerPC/AsmParser/LLVMPowerPCAsmParser.vcxproj">
+      <Project>EB71E9B9-D1B0-4502-809F-7612D51FE516</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/PowerPC/InstPrinter/LLVMPowerPCAsmPrinter.vcxproj">
+      <Project>DEB7AF58-6FCB-410D-845D-BFDECB5E65E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/PowerPC/LLVMPowerPCCodeGen.vcxproj">
+      <Project>B39327CA-F961-4397-9303-E5D972740951</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/PowerPC/MCTargetDesc/LLVMPowerPCDesc.vcxproj">
+      <Project>C9B6161C-483E-4674-9DF6-0F26847349B8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/PowerPC/Disassembler/LLVMPowerPCDisassembler.vcxproj">
+      <Project>14B98B3F-8243-4DD0-B2BE-928AE10B7944</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/PowerPC/TargetInfo/LLVMPowerPCInfo.vcxproj">
+      <Project>BE59A611-2046-49F3-9A1C-A7075BFEC1DE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/ProfileData/LLVMProfileData.vcxproj">
+      <Project>45C6746C-E4F1-4F81-8819-197E1FE0038C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Transforms/Scalar/LLVMScalarOpts.vcxproj">
+      <Project>D87C0B4F-B511-4A5A-BE5A-D399A7EA071C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/CodeGen/SelectionDAG/LLVMSelectionDAG.vcxproj">
+      <Project>BB120C95-B651-4364-9D36-12FE5C1A66D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Sparc/AsmParser/LLVMSparcAsmParser.vcxproj">
+      <Project>259C2B3B-AC80-40C9-A493-11A6324921F5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Sparc/InstPrinter/LLVMSparcAsmPrinter.vcxproj">
+      <Project>4937CD26-9447-45F6-B5E1-0E1593362147</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Sparc/LLVMSparcCodeGen.vcxproj">
+      <Project>36386A6E-99C8-4818-B877-87259B690CF5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Sparc/MCTargetDesc/LLVMSparcDesc.vcxproj">
+      <Project>FDFF8F24-541E-4138-B2BF-57D377D35F8D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Sparc/Disassembler/LLVMSparcDisassembler.vcxproj">
+      <Project>DDE8E77E-325F-4C07-B8D7-623126ED7050</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Sparc/TargetInfo/LLVMSparcInfo.vcxproj">
+      <Project>05267AB3-FA2C-44FF-92F7-6711C4E8B592</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Support/LLVMSupport.vcxproj">
+      <Project>0BC70E07-F7B4-474B-A11A-3E9132D965F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/SystemZ/AsmParser/LLVMSystemZAsmParser.vcxproj">
+      <Project>4FA90E46-BE7B-4EA4-A559-173E30F1843F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/SystemZ/InstPrinter/LLVMSystemZAsmPrinter.vcxproj">
+      <Project>FF933FF6-8742-4519-9A8F-E5A6F3A2334F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/SystemZ/LLVMSystemZCodeGen.vcxproj">
+      <Project>FD0A9B33-AA96-43CB-9CEE-160B37825D6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/SystemZ/MCTargetDesc/LLVMSystemZDesc.vcxproj">
+      <Project>DC9FB66A-9EDA-4556-AB1F-F4ED41482D1E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/SystemZ/Disassembler/LLVMSystemZDisassembler.vcxproj">
+      <Project>B338C68D-0A69-474D-9474-B86BF874D35C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/SystemZ/TargetInfo/LLVMSystemZInfo.vcxproj">
+      <Project>895194B8-E925-4BFB-8A30-FB74C3B4817E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/LLVMTarget.vcxproj">
+      <Project>E8487C0E-B556-4A8B-8F90-4532DDC755E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Transforms/Utils/LLVMTransformUtils.vcxproj">
+      <Project>9456DEAC-C2AB-47B8-B5C0-D1437CA58A02</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Transforms/Vectorize/LLVMVectorize.vcxproj">
+      <Project>23CA3AC9-8B82-43B5-8445-0DF24BEA71A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/X86/AsmParser/LLVMX86AsmParser.vcxproj">
+      <Project>60816A70-7378-4AD4-9AF2-6CB5A8E168A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/X86/InstPrinter/LLVMX86AsmPrinter.vcxproj">
+      <Project>C12AF2D7-BF41-4AFA-9173-FF1F92997BC5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/X86/LLVMX86CodeGen.vcxproj">
+      <Project>0C9A236A-6805-49F4-887F-ADFE407FD154</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/X86/MCTargetDesc/LLVMX86Desc.vcxproj">
+      <Project>4D8B66F4-86F3-40EA-9C4E-64E26EDCD739</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/X86/Disassembler/LLVMX86Disassembler.vcxproj">
+      <Project>EADBF597-50EF-48C5-8471-D4D779D03EAB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/X86/TargetInfo/LLVMX86Info.vcxproj">
+      <Project>63F2DBC0-1230-4D92-B86E-F96CDD26EE70</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/X86/Utils/LLVMX86Utils.vcxproj">
+      <Project>39A993A8-699D-4D11-B3CA-C3861A91E948</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/XCore/InstPrinter/LLVMXCoreAsmPrinter.vcxproj">
+      <Project>0CFFB790-3C60-4667-9183-502AA9411E9D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/XCore/LLVMXCoreCodeGen.vcxproj">
+      <Project>BDC6339B-9F05-41BD-AE97-FEB95F37F892</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/XCore/MCTargetDesc/LLVMXCoreDesc.vcxproj">
+      <Project>4931F0A9-7ABF-4104-8226-91A8CF7698E9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/XCore/Disassembler/LLVMXCoreDisassembler.vcxproj">
+      <Project>28B8237E-5DCE-4594-AEF6-B83CEA6A0151</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/XCore/TargetInfo/LLVMXCoreInfo.vcxproj">
+      <Project>9A40828E-3C8B-46D1-901F-0630835ABCCC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Transforms/IPO/LLVMipo.vcxproj">
+      <Project>3D11058D-F171-4BAD-AD31-6BA9DA55B26A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/ZERO_CHECK.vcxproj">
+      <Project>A8649693-7109-4DDD-B65D-31D6BF355819</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Headers/clang-headers.vcxproj">
+      <Project>68AAFD48-4D16-4729-9932-C29568034617</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/ARCMigrate/clangARCMigrate.vcxproj">
+      <Project>03E45587-3412-451A-9DBE-D091E9D0E347</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/AST/clangAST.vcxproj">
+      <Project>6085B116-B1DC-458B-95A3-C0D4772156B1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Analysis/clangAnalysis.vcxproj">
+      <Project>FE27F5F1-4F39-4B8C-8E10-C65272B996BD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Basic/clangBasic.vcxproj">
+      <Project>054DEB6E-6820-45E1-9AC5-18E0B3BFDC2E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/CodeGen/clangCodeGen.vcxproj">
+      <Project>48C0C406-78E2-4556-B0D6-97E4B02D907E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Driver/clangDriver.vcxproj">
+      <Project>B4BC5447-6FE3-4EB9-83E0-59517BD681B4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Edit/clangEdit.vcxproj">
+      <Project>C9A6785A-2048-4542-8088-5D70B4C36573</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Frontend/clangFrontend.vcxproj">
+      <Project>4F2B06D7-41D6-49BD-94B7-F471871DE22D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/FrontendTool/clangFrontendTool.vcxproj">
+      <Project>41B876C0-71EB-4BDC-9922-F6FD8DF046BC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Lex/clangLex.vcxproj">
+      <Project>DF5B510D-8461-4965-A5A8-32AE27555343</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Parse/clangParse.vcxproj">
+      <Project>B937CDAD-392D-48DC-B492-A72CCD157F1C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Rewrite/clangRewrite.vcxproj">
+      <Project>79E73132-1A04-44DA-870C-937596E29070</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Frontend/Rewrite/clangRewriteFrontend.vcxproj">
+      <Project>1F036C62-C02D-459E-891F-659BABA98C6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Sema/clangSema.vcxproj">
+      <Project>6A81F8A3-0FCD-4571-AB5B-A1C1F492BAD2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/Serialization/clangSerialization.vcxproj">
+      <Project>7255DAEF-DFC7-43AB-8583-CF94EAECDDD3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/StaticAnalyzer/Checkers/clangStaticAnalyzerCheckers.vcxproj">
+      <Project>F80EB561-3132-4211-872D-0391663E722D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/StaticAnalyzer/Core/clangStaticAnalyzerCore.vcxproj">
+      <Project>D7070A34-2A97-45F9-AB1F-5145E2DDAA73</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/clang/lib/StaticAnalyzer/Frontend/clangStaticAnalyzerFrontend.vcxproj">
+      <Project>7EAD47F1-C01E-4AD6-8440-0F7DEDA989E2</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

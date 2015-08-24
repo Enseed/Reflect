@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{8B432CBE-5790-413A-BF53-A7E620FE7489}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>LLVMMipsCodeGen</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\Debug\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LLVMMipsCodeGen.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LLVMMipsCodeGen</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LLVMMipsCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\Release\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LLVMMipsCodeGen.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LLVMMipsCodeGen</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LLVMMipsCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\MinSizeRel\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">LLVMMipsCodeGen.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">LLVMMipsCodeGen</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LLVMMipsCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\RelWithDebInfo\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">LLVMMipsCodeGen.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">LLVMMipsCodeGen</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LLVMMipsCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w14062 /Zc:inline /Zc:sizedDealloc- /EHs-c- %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4324</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/lib/Target/Mips/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\Mips\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MicroMips32r6InstrFormats.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MicroMips32r6InstrInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MicroMips64r6InstrFormats.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MicroMips64r6InstrInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MicroMipsInstrFormats.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MicroMipsInstrFPU.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MicroMipsInstrInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16InstrFormats.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16InstrInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips32r6InstrFormats.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips32r6InstrInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips64InstrInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips64r6InstrInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsCallingConv.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsCondMov.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsDSPInstrFormats.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsDSPInstrInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsInstrFormats.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsInstrFPU.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsInstrInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsMSAInstrFormats.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsMSAInstrInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsRegisterInfo.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSchedule.td" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16FrameLowering.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16HardFloatInfo.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16InstrInfo.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16ISelDAGToDAG.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16ISelLowering.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16RegisterInfo.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsAnalyzeImmediate.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsAsmPrinter.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsCCState.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsFrameLowering.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsInstrInfo.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsISelDAGToDAG.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsISelLowering.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsMachineFunction.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsMCInstLower.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsOptionRecord.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsRegisterInfo.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSEFrameLowering.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSEInstrInfo.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSEISelDAGToDAG.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSEISelLowering.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSERegisterInfo.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSubtarget.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsTargetMachine.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsTargetObjectFile.h" />
+    <ClInclude Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsTargetStreamer.h" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16FrameLowering.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16HardFloat.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16HardFloatInfo.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16InstrInfo.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16ISelDAGToDAG.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16ISelLowering.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\Mips16RegisterInfo.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsAnalyzeImmediate.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsAsmPrinter.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsCCState.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsConstantIslandPass.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsDelaySlotFiller.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsFastISel.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsInstrInfo.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsISelDAGToDAG.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsISelLowering.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsFrameLowering.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsLongBranch.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsMCInstLower.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsMachineFunction.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsModuleISelDAGToDAG.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsOptimizePICCall.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsOs16.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsRegisterInfo.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSEFrameLowering.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSEInstrInfo.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSEISelDAGToDAG.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSEISelLowering.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSERegisterInfo.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsSubtarget.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsTargetMachine.cpp" />
+    <ClCompile Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\Mips\MipsTargetObjectFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Target/Mips/MipsCommonTableGen.vcxproj">
+      <Project>939D4A74-A608-408A-93EC-22D497A9DC80</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/ZERO_CHECK.vcxproj">
+      <Project>A8649693-7109-4DDD-B65D-31D6BF355819</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/include/llvm/IR/intrinsics_gen.vcxproj">
+      <Project>20FE9F05-331C-4AF2-AEAA-116F93E136DA</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

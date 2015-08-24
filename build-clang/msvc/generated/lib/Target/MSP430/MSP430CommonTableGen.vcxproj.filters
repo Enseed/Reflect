@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\lib\Target\MSP430\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenRegisterInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenRegisterInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenInstrInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenInstrInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenAsmWriter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenAsmWriter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenDAGISel.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenDAGISel.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenCallingConv.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenCallingConv.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenSubtargetInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\ea5e5921dc1b15782b54eeab6d390d40\MSP430GenSubtargetInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\e4f4bec68855485c8ae28c956a3667f1\MSP430CommonTableGen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\lib\Target\MSP430\CMakeFiles\MSP430CommonTableGen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{33E7D722-A369-4DA0-BC24-6BAB1862A76A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

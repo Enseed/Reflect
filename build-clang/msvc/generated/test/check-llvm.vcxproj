@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F3FBCE0E-E248-48C2-A301-3081E4111139}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>check-llvm</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test;C:\Users\petit\Documents\Reflect_build123\llvm\test;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test;C:\Users\petit\Documents\Reflect_build123\llvm\test;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test;C:\Users\petit\Documents\Reflect_build123\llvm\test;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test;C:\Users\petit\Documents\Reflect_build123\llvm\test;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test;C:\Users\petit\Documents\Reflect_build123\llvm\test;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test;C:\Users\petit\Documents\Reflect_build123\llvm\test;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test;C:\Users\petit\Documents\Reflect_build123\llvm\test;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test;C:\Users\petit\Documents\Reflect_build123\llvm\test;C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\include;C:\Users\petit\Documents\Reflect_build123\llvm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\Unit\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\Unit\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\Unit\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\Unit\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\Unit\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\Unit\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\bin\cmake.exe -HC:/Users/petit/Documents/Reflect_build123/llvm -BC:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated --check-stamp-file C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\Unit\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/petit/Documents/Reflect_build123/llvm/test/CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;C:\Users\petit\Documents\Reflect_build123\llvm\test\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\Unit\lit.site.cfg.in;C:\Users\petit\Documents\Reflect_build123\llvm\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\e2d90a0ff32bd41941031a7260bf27a1\check-llvm.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Running the LLVM regression tests</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Running the LLVM regression tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Python27\python.exe C:/Users/petit/Documents/Reflect_build123/llvm/utils/lit/lit.py -sv --no-progress-bar --param build_mode=$(Configuration) --param llvm_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/lit.site.cfg --param llvm_unit_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/Unit/lit.site.cfg C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Python27\python.exe C:/Users/petit/Documents/Reflect_build123/llvm/utils/lit/lit.py -sv --no-progress-bar --param build_mode=$(Configuration) --param llvm_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/lit.site.cfg --param llvm_unit_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/Unit/lit.site.cfg C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/e2d90a0ff32bd41941031a7260bf27a1/check-llvm.rule;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/e2d90a0ff32bd41941031a7260bf27a1/check-llvm.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\check-llvm</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\check-llvm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Running the LLVM regression tests</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Running the LLVM regression tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Python27\python.exe C:/Users/petit/Documents/Reflect_build123/llvm/utils/lit/lit.py -sv --no-progress-bar --param build_mode=$(Configuration) --param llvm_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/lit.site.cfg --param llvm_unit_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/Unit/lit.site.cfg C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Python27\python.exe C:/Users/petit/Documents/Reflect_build123/llvm/utils/lit/lit.py -sv --no-progress-bar --param build_mode=$(Configuration) --param llvm_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/lit.site.cfg --param llvm_unit_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/Unit/lit.site.cfg C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/e2d90a0ff32bd41941031a7260bf27a1/check-llvm.rule;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/e2d90a0ff32bd41941031a7260bf27a1/check-llvm.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\check-llvm</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\check-llvm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Running the LLVM regression tests</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Running the LLVM regression tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Python27\python.exe C:/Users/petit/Documents/Reflect_build123/llvm/utils/lit/lit.py -sv --no-progress-bar --param build_mode=$(Configuration) --param llvm_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/lit.site.cfg --param llvm_unit_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/Unit/lit.site.cfg C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Python27\python.exe C:/Users/petit/Documents/Reflect_build123/llvm/utils/lit/lit.py -sv --no-progress-bar --param build_mode=$(Configuration) --param llvm_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/lit.site.cfg --param llvm_unit_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/Unit/lit.site.cfg C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/e2d90a0ff32bd41941031a7260bf27a1/check-llvm.rule;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/e2d90a0ff32bd41941031a7260bf27a1/check-llvm.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\check-llvm</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\check-llvm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Running the LLVM regression tests</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Running the LLVM regression tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Python27\python.exe C:/Users/petit/Documents/Reflect_build123/llvm/utils/lit/lit.py -sv --no-progress-bar --param build_mode=$(Configuration) --param llvm_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/lit.site.cfg --param llvm_unit_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/Unit/lit.site.cfg C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Python27\python.exe C:/Users/petit/Documents/Reflect_build123/llvm/utils/lit/lit.py -sv --no-progress-bar --param build_mode=$(Configuration) --param llvm_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/lit.site.cfg --param llvm_unit_site_config=C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test/Unit/lit.site.cfg C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/e2d90a0ff32bd41941031a7260bf27a1/check-llvm.rule;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/e2d90a0ff32bd41941031a7260bf27a1/check-llvm.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\check-llvm</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\check-llvm</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\test\CMakeFiles\check-llvm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/bugpoint-passes/BugpointPasses.vcxproj">
+      <Project>8EB903FD-00FB-4F7D-8000-962B885FE20E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/utils/FileCheck/FileCheck.vcxproj">
+      <Project>1A8C1F39-9ADC-4D3D-AC69-3AF9D2E26E18</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/lib/Transforms/Hello/LLVMHello.vcxproj">
+      <Project>7034F403-2494-412F-B86A-E76BFBB21902</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/unittests/UnitTests.vcxproj">
+      <Project>304E9EB6-AE59-4251-967F-34DBA40712C0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/ZERO_CHECK.vcxproj">
+      <Project>A8649693-7109-4DDD-B65D-31D6BF355819</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/bugpoint/bugpoint.vcxproj">
+      <Project>451D6FDE-F1FC-4EF6-8C8D-85D30E42E3F2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/utils/count/count.vcxproj">
+      <Project>DE6134E8-9E6D-441E-AC3D-E30AA22D96E7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llc/llc.vcxproj">
+      <Project>F4D3A9EB-CEC9-4314-9C77-B7005A9D2887</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/lli/lli.vcxproj">
+      <Project>3699DFF1-F9EF-4959-87A8-01EFF7CA5759</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/lli/ChildTarget/lli-child-target.vcxproj">
+      <Project>94B1C999-21BA-49DC-9B15-78FCDA966B74</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-ar/llvm-ar.vcxproj">
+      <Project>6AAFC325-4A57-4574-8327-55485C560260</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-as/llvm-as.vcxproj">
+      <Project>EA796063-660C-451F-9037-0ED6CDF10144</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-bcanalyzer/llvm-bcanalyzer.vcxproj">
+      <Project>31EBF658-695C-4D89-8BA0-44DF49720256</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-c-test/llvm-c-test.vcxproj">
+      <Project>ADD1AD94-8F73-45CD-9C49-C3F6B8D64B1E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-config/llvm-config.vcxproj">
+      <Project>A0682502-7020-4193-97ED-87F7B5C44FCC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-cov/llvm-cov.vcxproj">
+      <Project>2E760EF6-6CFF-4052-AEF6-E948A590122D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-cxxdump/llvm-cxxdump.vcxproj">
+      <Project>47DF89A3-F1E1-4937-9293-8FF5C6CDCCBC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-diff/llvm-diff.vcxproj">
+      <Project>88ECD90E-F712-4D80-B9B1-DD95B59B09B6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-dis/llvm-dis.vcxproj">
+      <Project>877635F1-BD57-4F36-AEC5-62E3DDB5D5DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/dsymutil/llvm-dsymutil.vcxproj">
+      <Project>6CDC8826-FCBD-44DF-AA13-E90EB69B8CA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-dwarfdump/llvm-dwarfdump.vcxproj">
+      <Project>4CDE0DB2-B9BA-4C85-8D06-B96144BD79BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-extract/llvm-extract.vcxproj">
+      <Project>141B673B-D64B-4C3B-AB45-7C1D80E5D82F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-ar/llvm-lib.vcxproj">
+      <Project>F37E15F3-4BA6-4609-93DE-8B7B9202FB64</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-link/llvm-link.vcxproj">
+      <Project>2CEE325E-C596-4BFB-93C7-5B00E24144A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-lto/llvm-lto.vcxproj">
+      <Project>330C7E57-7CDD-4848-BC63-395F7C9C7852</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-mc/llvm-mc.vcxproj">
+      <Project>A0734F9B-5202-414B-BE27-55A89CBF07F1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-mcmarkup/llvm-mcmarkup.vcxproj">
+      <Project>5C5B3DDD-91A4-4BAF-8146-D8AC773603EC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-nm/llvm-nm.vcxproj">
+      <Project>E9ABB86B-E886-427D-9AB8-0ADEFA1B3B41</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-objdump/llvm-objdump.vcxproj">
+      <Project>6F9E6265-DC68-41EF-A13A-64670D2D5072</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-profdata/llvm-profdata.vcxproj">
+      <Project>3D88F2C5-6E16-4D15-A402-EC6F8B214751</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-ar/llvm-ranlib.vcxproj">
+      <Project>505B4FAF-3CB5-4E37-8DDD-F60A20B97788</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-readobj/llvm-readobj.vcxproj">
+      <Project>362DBAEC-22AD-4A7D-87B1-07226EBA3397</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-rtdyld/llvm-rtdyld.vcxproj">
+      <Project>47DEC957-4E5F-47F2-BD7F-140AB1985D9A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-size/llvm-size.vcxproj">
+      <Project>98BEC2F2-9266-4790-9226-805BF3310587</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-split/llvm-split.vcxproj">
+      <Project>17D70C03-E864-45A7-B00E-7BAA425A2478</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/llvm-symbolizer/llvm-symbolizer.vcxproj">
+      <Project>E3F7FB64-AE77-41B1-84D6-3E7C6CCDBDF2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/utils/TableGen/llvm-tblgen.vcxproj">
+      <Project>8C312286-B712-472D-AC14-1C61EAD3C8EC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/macho-dump/macho-dump.vcxproj">
+      <Project>D1F83B59-69FD-4AF9-83DF-73E0A5C2529E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/utils/not/not.vcxproj">
+      <Project>431ACAC7-6A41-4F73-B4DB-F784EB51F987</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/obj2yaml/obj2yaml.vcxproj">
+      <Project>A7950AB0-D1B8-4FA4-8CBD-3E26269D8A09</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/opt/opt.vcxproj">
+      <Project>B469BF3A-960E-44C8-ADB6-9BBA73A8D8F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/verify-uselistorder/verify-uselistorder.vcxproj">
+      <Project>77AC6C38-E920-4BC0-B2B6-15CAC33894F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/utils/yaml-bench/yaml-bench.vcxproj">
+      <Project>2C571C60-8886-4EAD-9730-C07387EF9E12</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/tools/yaml2obj/yaml2obj.vcxproj">
+      <Project>D1716C59-AB37-41E5-874E-0E96B148D235</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

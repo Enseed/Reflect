@@ -1,0 +1,1242 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:41 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\3.3.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\3.3.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\3.3.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/3.3.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:42 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\3.3.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\3.3.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\3.3.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/3.3.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_496a3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:43 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_496a3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_496a3.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_496a3.dir\Debug\cmTC_496a3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_496a3.dir\Debug\cmTC_496a3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_496a3.dir\Debug\\" /Fd"cmTC_496a3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_496a3.dir\Debug\\" /Fd"cmTC_496a3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_496a3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_496a3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_496a3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_496a3.dir\Debug\testCCompiler.obj
+  cmTC_496a3.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_496a3.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_496a3.dir\Debug\cmTC_496a3.tlog\unsuccessfulbuild".
+  Touching "cmTC_496a3.dir\Debug\cmTC_496a3.tlog\cmTC_496a3.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_496a3.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9e904.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:44 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_9e904.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9e904.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9e904.dir\Debug\cmTC_9e904.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9e904.dir\Debug\cmTC_9e904.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e904.dir\Debug\\" /Fd"cmTC_9e904.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e904.dir\Debug\\" /Fd"cmTC_9e904.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_9e904.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_9e904.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_9e904.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_9e904.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_9e904.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_9e904.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9e904.dir\Debug\cmTC_9e904.tlog\unsuccessfulbuild".
+  Touching "cmTC_9e904.dir\Debug\cmTC_9e904.tlog\cmTC_9e904.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_9e904.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1f0a2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:45 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_1f0a2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1f0a2.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1f0a2.dir\Debug\cmTC_1f0a2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1f0a2.dir\Debug\cmTC_1f0a2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1f0a2.dir\Debug\\" /Fd"cmTC_1f0a2.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1f0a2.dir\Debug\\" /Fd"cmTC_1f0a2.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_1f0a2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_1f0a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_1f0a2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_1f0a2.dir\Debug\testCXXCompiler.obj
+  cmTC_1f0a2.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_1f0a2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1f0a2.dir\Debug\cmTC_1f0a2.tlog\unsuccessfulbuild".
+  Touching "cmTC_1f0a2.dir\Debug\cmTC_1f0a2.tlog\cmTC_1f0a2.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_1f0a2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e1609.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:46 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_e1609.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e1609.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e1609.dir\Debug\cmTC_e1609.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e1609.dir\Debug\cmTC_e1609.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e1609.dir\Debug\\" /Fd"cmTC_e1609.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e1609.dir\Debug\\" /Fd"cmTC_e1609.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\cmake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_e1609.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_e1609.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_e1609.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_e1609.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_e1609.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_e1609.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_e1609.dir\Debug\cmTC_e1609.tlog\unsuccessfulbuild".
+  Touching "cmTC_e1609.dir\Debug\cmTC_e1609.tlog\cmTC_e1609.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_e1609.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a258a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:47 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_a258a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a258a.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a258a.dir\Debug\cmTC_a258a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a258a.dir\Debug\cmTC_a258a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a258a.dir\Debug\\" /Fd"cmTC_a258a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a258a.dir\Debug\\" /Fd"cmTC_a258a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_a258a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_a258a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_a258a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_a258a.dir\Debug\feature_tests.obj
+  cmTC_a258a.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_a258a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a258a.dir\Debug\cmTC_a258a.tlog\unsuccessfulbuild".
+  Touching "cmTC_a258a.dir\Debug\cmTC_a258a.tlog\cmTC_a258a.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_a258a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f281c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:50 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_f281c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f281c.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f281c.dir\Debug\cmTC_f281c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f281c.dir\Debug\cmTC_f281c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f281c.dir\Debug\\" /Fd"cmTC_f281c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f281c.dir\Debug\\" /Fd"cmTC_f281c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_f281c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_f281c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_f281c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_f281c.dir\Debug\CheckIncludeFile.obj
+  cmTC_f281c.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_f281c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f281c.dir\Debug\cmTC_f281c.tlog\unsuccessfulbuild".
+  Touching "cmTC_f281c.dir\Debug\cmTC_f281c.tlog\cmTC_f281c.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_f281c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b1633.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:52 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_b1633.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b1633.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b1633.dir\Debug\cmTC_b1633.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b1633.dir\Debug\cmTC_b1633.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1633.dir\Debug\\" /Fd"cmTC_b1633.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1633.dir\Debug\\" /Fd"cmTC_b1633.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_b1633.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_b1633.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_b1633.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_b1633.dir\Debug\CheckIncludeFile.obj
+  cmTC_b1633.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_b1633.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b1633.dir\Debug\cmTC_b1633.tlog\unsuccessfulbuild".
+  Touching "cmTC_b1633.dir\Debug\cmTC_b1633.tlog\cmTC_b1633.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_b1633.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_acc0d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:53 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_acc0d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_acc0d.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_acc0d.dir\Debug\cmTC_acc0d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_acc0d.dir\Debug\cmTC_acc0d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_acc0d.dir\Debug\\" /Fd"cmTC_acc0d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_acc0d.dir\Debug\\" /Fd"cmTC_acc0d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_acc0d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_acc0d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_acc0d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_acc0d.dir\Debug\CheckIncludeFile.obj
+  cmTC_acc0d.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_acc0d.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_acc0d.dir\Debug\cmTC_acc0d.tlog\unsuccessfulbuild".
+  Touching "cmTC_acc0d.dir\Debug\cmTC_acc0d.tlog\cmTC_acc0d.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_acc0d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_673ae.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:54 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_673ae.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_673ae.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_673ae.dir\Debug\cmTC_673ae.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_673ae.dir\Debug\cmTC_673ae.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_673ae.dir\Debug\\" /Fd"cmTC_673ae.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_673ae.dir\Debug\\" /Fd"cmTC_673ae.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_673ae.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_673ae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_673ae.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_673ae.dir\Debug\CheckIncludeFile.obj
+  cmTC_673ae.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_673ae.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_673ae.dir\Debug\cmTC_673ae.tlog\unsuccessfulbuild".
+  Touching "cmTC_673ae.dir\Debug\cmTC_673ae.tlog\cmTC_673ae.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_673ae.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ee4dc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:56 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_ee4dc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ee4dc.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ee4dc.dir\Debug\cmTC_ee4dc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ee4dc.dir\Debug\cmTC_ee4dc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee4dc.dir\Debug\\" /Fd"cmTC_ee4dc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee4dc.dir\Debug\\" /Fd"cmTC_ee4dc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_ee4dc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_ee4dc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_ee4dc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_ee4dc.dir\Debug\CheckIncludeFile.obj
+  cmTC_ee4dc.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_ee4dc.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ee4dc.dir\Debug\cmTC_ee4dc.tlog\unsuccessfulbuild".
+  Touching "cmTC_ee4dc.dir\Debug\cmTC_ee4dc.tlog\cmTC_ee4dc.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_ee4dc.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ce039.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:58 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_ce039.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ce039.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ce039.dir\Debug\cmTC_ce039.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ce039.dir\Debug\cmTC_ce039.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce039.dir\Debug\\" /Fd"cmTC_ce039.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce039.dir\Debug\\" /Fd"cmTC_ce039.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_ce039.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_ce039.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_ce039.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_ce039.dir\Debug\CheckIncludeFile.obj
+  cmTC_ce039.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_ce039.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ce039.dir\Debug\cmTC_ce039.tlog\unsuccessfulbuild".
+  Touching "cmTC_ce039.dir\Debug\cmTC_ce039.tlog\cmTC_ce039.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_ce039.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c51a7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:27:59 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_c51a7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c51a7.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c51a7.dir\Debug\cmTC_c51a7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c51a7.dir\Debug\cmTC_c51a7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c51a7.dir\Debug\\" /Fd"cmTC_c51a7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c51a7.dir\Debug\\" /Fd"cmTC_c51a7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_c51a7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_c51a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_c51a7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_c51a7.dir\Debug\CheckIncludeFile.obj
+  cmTC_c51a7.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_c51a7.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_c51a7.dir\Debug\cmTC_c51a7.tlog\unsuccessfulbuild".
+  Touching "cmTC_c51a7.dir\Debug\cmTC_c51a7.tlog\cmTC_c51a7.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_c51a7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b9544.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:04 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_b9544.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b9544.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b9544.dir\Debug\cmTC_b9544.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b9544.dir\Debug\cmTC_b9544.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9544.dir\Debug\\" /Fd"cmTC_b9544.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9544.dir\Debug\\" /Fd"cmTC_b9544.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_b9544.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_b9544.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_b9544.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_b9544.dir\Debug\CheckIncludeFile.obj
+  cmTC_b9544.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_b9544.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b9544.dir\Debug\cmTC_b9544.tlog\unsuccessfulbuild".
+  Touching "cmTC_b9544.dir\Debug\cmTC_b9544.tlog\cmTC_b9544.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_b9544.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d2090.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:09 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_d2090.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d2090.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d2090.dir\Debug\cmTC_d2090.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d2090.dir\Debug\cmTC_d2090.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2090.dir\Debug\\" /Fd"cmTC_d2090.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2090.dir\Debug\\" /Fd"cmTC_d2090.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_d2090.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_d2090.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_d2090.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_d2090.dir\Debug\CheckIncludeFile.obj
+  cmTC_d2090.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_d2090.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d2090.dir\Debug\cmTC_d2090.tlog\unsuccessfulbuild".
+  Touching "cmTC_d2090.dir\Debug\cmTC_d2090.tlog\cmTC_d2090.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_d2090.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_18d3d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:10 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_18d3d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_18d3d.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_18d3d.dir\Debug\cmTC_18d3d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_18d3d.dir\Debug\cmTC_18d3d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18d3d.dir\Debug\\" /Fd"cmTC_18d3d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18d3d.dir\Debug\\" /Fd"cmTC_18d3d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_18d3d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_18d3d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_18d3d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_18d3d.dir\Debug\CheckSymbolExists.obj
+  cmTC_18d3d.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_18d3d.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_18d3d.dir\Debug\cmTC_18d3d.tlog\unsuccessfulbuild".
+  Touching "cmTC_18d3d.dir\Debug\cmTC_18d3d.tlog\cmTC_18d3d.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_18d3d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+File C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fbf26.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:11 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_fbf26.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fbf26.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fbf26.dir\Debug\cmTC_fbf26.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fbf26.dir\Debug\cmTC_fbf26.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fbf26.dir\Debug\\" /Fd"cmTC_fbf26.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fbf26.dir\Debug\\" /Fd"cmTC_fbf26.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_fbf26.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_fbf26.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_fbf26.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_fbf26.dir\Debug\CheckSymbolExists.obj
+  cmTC_fbf26.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_fbf26.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_fbf26.dir\Debug\cmTC_fbf26.tlog\unsuccessfulbuild".
+  Touching "cmTC_fbf26.dir\Debug\cmTC_fbf26.tlog\cmTC_fbf26.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_fbf26.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+File C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_aba9b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:31 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_aba9b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_aba9b.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_aba9b.dir\Debug\cmTC_aba9b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_aba9b.dir\Debug\cmTC_aba9b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aba9b.dir\Debug\\" /Fd"cmTC_aba9b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aba9b.dir\Debug\\" /Fd"cmTC_aba9b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_aba9b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_aba9b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_aba9b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_aba9b.dir\Debug\CheckSymbolExists.obj
+  cmTC_aba9b.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_aba9b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_aba9b.dir\Debug\cmTC_aba9b.tlog\unsuccessfulbuild".
+  Touching "cmTC_aba9b.dir\Debug\cmTC_aba9b.tlog\cmTC_aba9b.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_aba9b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+File C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1d221.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:33 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_1d221.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1d221.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1d221.dir\Debug\cmTC_1d221.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1d221.dir\Debug\cmTC_1d221.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d221.dir\Debug\\" /Fd"cmTC_1d221.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d221.dir\Debug\\" /Fd"cmTC_1d221.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_1d221.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(178): note: see declaration of 'strerror'
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_1d221.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_1d221.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_1d221.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_1d221.dir\Debug\CheckSymbolExists.obj
+  cmTC_1d221.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_1d221.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1d221.dir\Debug\cmTC_1d221.tlog\unsuccessfulbuild".
+  Touching "cmTC_1d221.dir\Debug\cmTC_1d221.tlog\cmTC_1d221.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_1d221.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_1d221.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_1d221.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+File C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_s exist passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0f723.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:34 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_0f723.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0f723.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0f723.dir\Debug\cmTC_0f723.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0f723.dir\Debug\cmTC_0f723.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f723.dir\Debug\\" /Fd"cmTC_0f723.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f723.dir\Debug\\" /Fd"cmTC_0f723.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_0f723.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_0f723.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_0f723.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0f723.dir\Debug\CheckSymbolExists.obj
+  cmTC_0f723.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_0f723.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_0f723.dir\Debug\cmTC_0f723.tlog\unsuccessfulbuild".
+  Touching "cmTC_0f723.dir\Debug\cmTC_0f723.tlog\cmTC_0f723.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_0f723.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+File C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _chsize_s exist passed with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9cbbb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:36 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_9cbbb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9cbbb.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9cbbb.dir\Debug\cmTC_9cbbb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9cbbb.dir\Debug\cmTC_9cbbb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9cbbb.dir\Debug\\" /Fd"cmTC_9cbbb.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9cbbb.dir\Debug\\" /Fd"cmTC_9cbbb.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_9cbbb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_9cbbb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_9cbbb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_9cbbb.dir\Debug\CheckSymbolExists.obj
+  cmTC_9cbbb.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_9cbbb.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9cbbb.dir\Debug\cmTC_9cbbb.tlog\unsuccessfulbuild".
+  Touching "cmTC_9cbbb.dir\Debug\cmTC_9cbbb.tlog\cmTC_9cbbb.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_9cbbb.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+File C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _chsize_s
+  return ((int*)(&_chsize_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeded with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_89a0a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:54 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_89a0a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_89a0a.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_89a0a.dir\Debug\cmTC_89a0a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_89a0a.dir\Debug\cmTC_89a0a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_INT64_T /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_89a0a.dir\Debug\\" /Fd"cmTC_89a0a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_INT64_T /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_89a0a.dir\Debug\\" /Fd"cmTC_89a0a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_89a0a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_89a0a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_89a0a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_89a0a.dir\Debug\src.obj
+  cmTC_89a0a.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_89a0a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_89a0a.dir\Debug\cmTC_89a0a.tlog\unsuccessfulbuild".
+  Touching "cmTC_89a0a.dir\Debug\cmTC_89a0a.tlog\cmTC_89a0a.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_89a0a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeded with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b00f7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:55 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_b00f7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b00f7.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b00f7.dir\Debug\cmTC_b00f7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b00f7.dir\Debug\cmTC_b00f7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_UINT64_T /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b00f7.dir\Debug\\" /Fd"cmTC_b00f7.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_UINT64_T /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b00f7.dir\Debug\\" /Fd"cmTC_b00f7.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_b00f7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_b00f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_b00f7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_b00f7.dir\Debug\src.obj
+  cmTC_b00f7.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_b00f7.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b00f7.dir\Debug\cmTC_b00f7.tlog\unsuccessfulbuild".
+  Touching "cmTC_b00f7.dir\Debug\cmTC_b00f7.tlog\cmTC_b00f7.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_b00f7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.87
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeded with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5dec6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:57 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_5dec6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5dec6.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5dec6.dir\Debug\cmTC_5dec6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5dec6.dir\Debug\cmTC_5dec6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D LLVM_HAS_ATOMICS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5dec6.dir\Debug\\" /Fd"cmTC_5dec6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D LLVM_HAS_ATOMICS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5dec6.dir\Debug\\" /Fd"cmTC_5dec6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_5dec6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_5dec6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_5dec6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_5dec6.dir\Debug\src.obj
+  cmTC_5dec6.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_5dec6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5dec6.dir\Debug\cmTC_5dec6.tlog\unsuccessfulbuild".
+  Touching "cmTC_5dec6.dir\Debug\cmTC_5dec6.tlog\cmTC_5dec6.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_5dec6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <Intrin.h> /* Workaround for PR19898. */
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test HAVE_ELMCB_PCSTR succeded with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_075b8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:28:59 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_075b8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_075b8.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_075b8.dir\Debug\cmTC_075b8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_075b8.dir\Debug\cmTC_075b8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_ELMCB_PCSTR /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_075b8.dir\Debug\\" /Fd"cmTC_075b8.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_ELMCB_PCSTR /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_075b8.dir\Debug\\" /Fd"cmTC_075b8.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\imagehlp.h(1873): warning C4091: 'typedef ': ignored on left of '' when no variable is declared [C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_075b8.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\imagehlp.h(3519): warning C4091: 'typedef ': ignored on left of '' when no variable is declared [C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_075b8.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_075b8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_075b8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_075b8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_075b8.dir\Debug\src.obj
+  cmTC_075b8.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_075b8.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_075b8.dir\Debug\cmTC_075b8.tlog\unsuccessfulbuild".
+  Touching "cmTC_075b8.dir\Debug\cmTC_075b8.tlog\cmTC_075b8.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_075b8.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_075b8.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\imagehlp.h(1873): warning C4091: 'typedef ': ignored on left of '' when no variable is declared [C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_075b8.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\imagehlp.h(3519): warning C4091: 'typedef ': ignored on left of '' when no variable is declared [C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_075b8.vcxproj]
+
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.38
+
+Source file was:
+
+    #include <windows.h>
+    #include <imagehlp.h>
+    extern "C" void foo(PENUMLOADED_MODULES_CALLBACK);
+    extern "C" void foo(BOOL(CALLBACK*)(PCSTR,ULONG_PTR,ULONG,PVOID));
+    int main(){return 0;}
+Performing C SOURCE FILE Test SUPPORTS_SIZED_DEALLOC succeded with the following output:
+Change Dir: C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_260e9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/22/2015 10:29:01 AM.
+Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_260e9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_260e9.dir\Debug\".
+  Creating directory "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_260e9.dir\Debug\cmTC_260e9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_260e9.dir\Debug\cmTC_260e9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_SIZED_DEALLOC /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_260e9.dir\Debug\\" /Fd"cmTC_260e9.dir\Debug\vc140.pdb" /Gd /TC /wd4146 /wd4180 /wd4244 /wd4258 /wd4267 /wd4291 /wd4345 /wd4351 /wd4355 /wd4456 /wd4457 /wd4458 /wd4459 /wd4503 /wd4624 /wd4722 /wd4800 /wd4100 /wd4127 /wd4512 /wd4505 /wd4610 /wd4510 /wd4702 /wd4245 /wd4706 /wd4310 /wd4701 /wd4703 /wd4389 /wd4611 /wd4805 /wd4204 /wd4577 /wd4091 /wd4324 /analyze- /errorReport:queue /we4238  -w14062 /Zc:inline /Zc:sizedDealloc- "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_SIZED_DEALLOC /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_260e9.dir\Debug\\" /Fd"cmTC_260e9.dir\Debug\vc140.pdb" /Gd /TC /wd4146 /wd4180 /wd4244 /wd4258 /wd4267 /wd4291 /wd4345 /wd4351 /wd4355 /wd4456 /wd4457 /wd4458 /wd4459 /wd4503 /wd4624 /wd4722 /wd4800 /wd4100 /wd4127 /wd4512 /wd4505 /wd4610 /wd4510 /wd4702 /wd4245 /wd4706 /wd4310 /wd4701 /wd4703 /wd4389 /wd4611 /wd4805 /wd4204 /wd4577 /wd4091 /wd4324 /analyze- /errorReport:queue /we4238  -w14062 /Zc:inline /Zc:sizedDealloc- "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_260e9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_260e9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/generated/CMakeFiles/CMakeTmp/Debug/cmTC_260e9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_260e9.dir\Debug\src.obj
+  cmTC_260e9.vcxproj -> C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\Debug\cmTC_260e9.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_260e9.dir\Debug\cmTC_260e9.tlog\unsuccessfulbuild".
+  Touching "cmTC_260e9.dir\Debug\cmTC_260e9.tlog\cmTC_260e9.lastbuildstate".
+Done Building Project "C:\Users\petit\Documents\Reflect_build123\build-clang\msvc\generated\CMakeFiles\CMakeTmp\cmTC_260e9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+Source file was:
+int main(void) { return 0; }

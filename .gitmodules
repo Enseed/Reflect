@@ -7,3 +7,12 @@
 [submodule "Sample"]
 	path = Sample
 	url = https://github.com/Enseed/ReflectSample.git
+[submodule "llvm"]
+	path = llvm
+	url = https://github.com/llvm-mirror/llvm.git
+[submodule "clang"]
+	path = clang
+	url = https://github.com/llvm-mirror/clang.git
+[submodule "boost"]
+	path = boost
+	url = https://stash.dsotm.dyndns.org/scm/tp/boost_include.git

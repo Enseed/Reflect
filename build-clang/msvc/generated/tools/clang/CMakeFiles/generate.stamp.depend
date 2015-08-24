@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/CMakeLists.txt
+C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/cmake/share/cmake-3.3/Modules/FindLibXml2.cmake
+C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/cmake/share/cmake-3.3/Modules/FindPkgConfig.cmake
+C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/cmake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/cmake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/cmake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/cmake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/cmake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/cmake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/include/clang/Basic/Version.inc.in
+C:/Users/petit/Documents/Reflect_build123/llvm/tools/clang/include/clang/Config/config.h.cmake
+C:/Users/petit/Documents/Reflect_build123/build-clang/msvc/cmake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
