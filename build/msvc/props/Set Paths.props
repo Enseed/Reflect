@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <StageBinPath>..\staging\Reflect\bin\$(Platform)\</StageBinPath>
+    <StageIncludePath>..\staging\Reflect\</StageIncludePath>
+    <SourceHeaders>..\..\API</SourceHeaders>
+    <SourceBinName>Reflect</SourceBinName>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <PostBuildEvent>
+      <Command>%(Command)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="StageBinPath">
+      <Value>$(StageBinPath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="StageIncludePath">
+      <Value>$(StageIncludePath)</Value>
+    </BuildMacro>
+    <BuildMacro Include="SourceHeaders">
+      <Value>$(SourceHeaders)</Value>
+    </BuildMacro>
+    <BuildMacro Include="SourceBinName">
+      <Value>$(SourceBinName)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
