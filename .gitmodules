@@ -13,3 +13,6 @@
 [submodule "boost"]
 	path = boost
 	url = https://stash.dsotm.dyndns.org/scm/tp/boost_include.git
+[submodule "build/staging"]
+	path = build/staging
+	url = https://github.com/Enseed/Reflect_sample.git
